@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 44,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -78,31 +78,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "kathodeDriver.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 0,
-          "size_x": 1280,
-          "size_y": 720
-        }
-      },
-      {
-        "name": "kathodeDriver.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 26,
-          "pos_y": 23,
-          "size_x": 1096,
-          "size_y": 611
-        }
-      }
-    ]
+    "files": []
   }
 }

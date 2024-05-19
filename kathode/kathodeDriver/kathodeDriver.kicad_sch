@@ -2035,1015 +2035,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x32"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x32"
-				(at 0 -43.18 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x32_1_1"
-				(rectangle
-					(start -1.27 -40.513)
-					(end 0 -40.767)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -37.973)
-					(end 0 -38.227)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -35.433)
-					(end 0 -35.687)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -32.893)
-					(end 0 -33.147)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -30.353)
-					(end 0 -30.607)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -27.813)
-					(end 0 -28.067)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -25.273)
-					(end 0 -25.527)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -22.733)
-					(end 0 -22.987)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -20.193)
-					(end 0 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -17.653)
-					(end 0 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 15.367)
-					(end 0 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 17.907)
-					(end 0 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 20.447)
-					(end 0 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 22.987)
-					(end 0 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 25.527)
-					(end 0 25.273)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 28.067)
-					(end 0 27.813)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 30.607)
-					(end 0 30.353)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 33.147)
-					(end 0 32.893)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 35.687)
-					(end 0 35.433)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 38.227)
-					(end 0 37.973)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 39.37)
-					(end 1.27 -41.91)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 38.1 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 35.56 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -27.94 0)
-					(length 3.81)
-					(name "Pin_27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -30.48 0)
-					(length 3.81)
-					(name "Pin_28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -33.02 0)
-					(length 3.81)
-					(name "Pin_29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 33.02 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -35.56 0)
-					(length 3.81)
-					(name "Pin_30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -38.1 0)
-					(length 3.81)
-					(name "Pin_31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -40.64 0)
-					(length 3.81)
-					(name "Pin_32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 30.48 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 27.94 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 25.4 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 22.86 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 20.32 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 17.78 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3461,6 +2452,1221 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "IGG1:IGG1-64"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.524 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IGG1-64_0_1"
+				(rectangle
+					(start 0 -153.67)
+					(end 3.81 10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IGG1-64_1_1"
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -20.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -25.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -27.94 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -30.48 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -33.02 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -35.56 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -38.1 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -40.64 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -43.18 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -45.72 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -48.26 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -50.8 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -53.34 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -55.88 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -58.42 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -60.96 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -63.5 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -66.04 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -68.58 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -71.12 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -73.66 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -76.2 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -78.74 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -81.28 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -83.82 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -86.36 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -88.9 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -91.44 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -93.98 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -96.52 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -99.06 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -101.6 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -104.14 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -106.68 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -109.22 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -111.76 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -114.3 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -116.84 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -119.38 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -121.92 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -124.46 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -127 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -129.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -132.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -134.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -137.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -139.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -142.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -144.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -147.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -149.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -152.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11090,7 +11296,7 @@
 		(uuid "04067941-4fc1-45f6-9165-03bfcc22b580")
 	)
 	(label "OUT_K59"
-		(at 636.27 186.69 180)
+		(at 553.72 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11112,7 +11318,7 @@
 		(uuid "07730275-2d29-49d7-b634-c7bc65d13d8f")
 	)
 	(label "OUT_K3"
-		(at 596.9 125.73 180)
+		(at 553.72 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11167,7 +11373,7 @@
 		(uuid "09796ef4-4579-450f-9668-256f18f77678")
 	)
 	(label "OUT_K8"
-		(at 596.9 138.43 180)
+		(at 553.72 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11178,7 +11384,7 @@
 		(uuid "09f8ec00-6f16-46d4-8f71-b4e8d890cbb2")
 	)
 	(label "OUT_K4"
-		(at 596.9 128.27 180)
+		(at 553.72 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11233,7 +11439,7 @@
 		(uuid "12d9bafb-a80c-41f1-b906-b8aaa35610f6")
 	)
 	(label "OUT_K1"
-		(at 596.9 120.65 180)
+		(at 553.72 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11266,7 +11472,7 @@
 		(uuid "15b5aa33-9a99-4f4f-95db-45b08f9a9b03")
 	)
 	(label "OUT_K14"
-		(at 596.9 153.67 180)
+		(at 553.72 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11299,7 +11505,7 @@
 		(uuid "170f3dde-a087-4ad0-8434-b97f4c10f307")
 	)
 	(label "OUT_K47"
-		(at 636.27 156.21 180)
+		(at 553.72 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11376,7 +11582,7 @@
 		(uuid "1c9458df-7100-42b5-8157-65b8add03d73")
 	)
 	(label "OUT_K33"
-		(at 636.27 120.65 180)
+		(at 553.72 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11453,7 +11659,7 @@
 		(uuid "22130299-ac94-443c-8cee-a1ef10fa1a86")
 	)
 	(label "OUT_K16"
-		(at 596.9 158.75 180)
+		(at 553.72 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11475,7 +11681,7 @@
 		(uuid "22dd025f-a27b-4dcd-b465-af1c37b68b40")
 	)
 	(label "OUT_K58"
-		(at 636.27 184.15 180)
+		(at 553.72 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11486,7 +11692,7 @@
 		(uuid "22fe53b4-175f-406e-8c73-8ee00dae0ca3")
 	)
 	(label "OUT_K26"
-		(at 596.9 184.15 180)
+		(at 553.72 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11508,7 +11714,7 @@
 		(uuid "24eef5f3-be13-4c08-bb4e-742f57304336")
 	)
 	(label "OUT_K53"
-		(at 636.27 171.45 180)
+		(at 553.72 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11530,7 +11736,7 @@
 		(uuid "2a8a8254-7000-4909-8f76-a467a02aa94e")
 	)
 	(label "OUT_K32"
-		(at 636.27 118.11 180)
+		(at 553.72 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11552,7 +11758,7 @@
 		(uuid "2c00b35d-a544-4d8f-9976-435da68829ce")
 	)
 	(label "OUT_K20"
-		(at 596.9 168.91 180)
+		(at 553.72 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11640,7 +11846,7 @@
 		(uuid "33b77005-57d3-4de7-9dc9-c0b26d956a4b")
 	)
 	(label "OUT_K27"
-		(at 596.9 186.69 180)
+		(at 553.72 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11651,7 +11857,7 @@
 		(uuid "33ce118f-8ba8-4927-b7c7-3d533c367f3c")
 	)
 	(label "OUT_K34"
-		(at 636.27 123.19 180)
+		(at 553.72 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11662,7 +11868,7 @@
 		(uuid "34830fb9-9ce2-4d21-988f-b1adcd967101")
 	)
 	(label "OUT_K46"
-		(at 636.27 153.67 180)
+		(at 553.72 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11695,7 +11901,7 @@
 		(uuid "39c7f39f-00e7-4621-b22f-ad98514e4b40")
 	)
 	(label "OUT_K40"
-		(at 636.27 138.43 180)
+		(at 553.72 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11728,7 +11934,7 @@
 		(uuid "3c34c77b-ada8-429f-85a1-bfbd28b75fa8")
 	)
 	(label "OUT_K56"
-		(at 636.27 179.07 180)
+		(at 553.72 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11750,7 +11956,7 @@
 		(uuid "3d2cda28-25a7-40d4-ab65-26eacca9f896")
 	)
 	(label "OUT_K23"
-		(at 596.9 176.53 180)
+		(at 553.72 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11772,7 +11978,7 @@
 		(uuid "40b028d2-48d7-4450-a3fe-c27dc0860aba")
 	)
 	(label "OUT_K52"
-		(at 636.27 168.91 180)
+		(at 553.72 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11783,7 +11989,7 @@
 		(uuid "41399806-4128-4d87-8b28-92dc38af2a44")
 	)
 	(label "OUT_K29"
-		(at 596.9 191.77 180)
+		(at 553.72 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11816,7 +12022,7 @@
 		(uuid "445de759-e597-4eaf-89d6-0e615b661249")
 	)
 	(label "OUT_K19"
-		(at 596.9 166.37 180)
+		(at 553.72 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11871,7 +12077,7 @@
 		(uuid "4b30be4e-9fd3-4b23-a9dd-8ca14411cc05")
 	)
 	(label "OUT_K10"
-		(at 596.9 143.51 180)
+		(at 553.72 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11959,7 +12165,7 @@
 		(uuid "503295e3-a4af-445a-be4b-fcf764b0af7a")
 	)
 	(label "OUT_K0"
-		(at 596.9 118.11 180)
+		(at 553.72 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12113,7 +12319,7 @@
 		(uuid "5dc70aa4-b665-4cb2-bd80-29c596abf4eb")
 	)
 	(label "OUT_K61"
-		(at 636.27 191.77 180)
+		(at 553.72 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12135,7 +12341,7 @@
 		(uuid "5ef77887-3cfa-4c97-85c3-e708996375e8")
 	)
 	(label "OUT_K9"
-		(at 596.9 140.97 180)
+		(at 553.72 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12157,7 +12363,7 @@
 		(uuid "61e13bd1-d58c-4eae-9159-66906003e3b8")
 	)
 	(label "OUT_K57"
-		(at 636.27 181.61 180)
+		(at 553.72 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12201,7 +12407,7 @@
 		(uuid "68fd1123-d178-4e0b-a1b3-60c34397c588")
 	)
 	(label "OUT_K38"
-		(at 636.27 133.35 180)
+		(at 553.72 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12234,7 +12440,7 @@
 		(uuid "6d4f3359-ac8c-44cd-9b05-d17eb1980780")
 	)
 	(label "OUT_K5"
-		(at 596.9 130.81 180)
+		(at 553.72 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12399,7 +12605,7 @@
 		(uuid "835b9b36-af83-492f-b85b-f2fed4aed67d")
 	)
 	(label "OUT_K41"
-		(at 636.27 140.97 180)
+		(at 553.72 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12410,7 +12616,7 @@
 		(uuid "840d8650-e569-4749-9329-deab48629b1f")
 	)
 	(label "OUT_K55"
-		(at 636.27 176.53 180)
+		(at 553.72 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12421,7 +12627,7 @@
 		(uuid "859cd941-9825-4191-8262-455436863472")
 	)
 	(label "OUT_K31"
-		(at 596.9 196.85 180)
+		(at 553.72 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12432,7 +12638,7 @@
 		(uuid "85fcb64d-d7a6-4c65-8f97-806b5a3caad0")
 	)
 	(label "OUT_K60"
-		(at 636.27 189.23 180)
+		(at 553.72 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12454,7 +12660,7 @@
 		(uuid "8861ae0e-d14e-4b47-bc73-cf1a816d3bc3")
 	)
 	(label "OUT_K25"
-		(at 596.9 181.61 180)
+		(at 553.72 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12520,7 +12726,7 @@
 		(uuid "8bdd0086-238e-4d82-a802-344f664ce8ce")
 	)
 	(label "OUT_K22"
-		(at 596.9 173.99 180)
+		(at 553.72 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12564,7 +12770,7 @@
 		(uuid "8f1c3ee9-4c4d-4873-b66d-92f99d197421")
 	)
 	(label "OUT_K49"
-		(at 636.27 161.29 180)
+		(at 553.72 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12718,7 +12924,7 @@
 		(uuid "967dc103-dd86-429c-af02-a88631bb293d")
 	)
 	(label "OUT_K18"
-		(at 596.9 163.83 180)
+		(at 553.72 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12762,7 +12968,7 @@
 		(uuid "98ec8dbe-eafe-410d-a376-3a528cc98b68")
 	)
 	(label "OUT_K44"
-		(at 636.27 148.59 180)
+		(at 553.72 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12773,7 +12979,7 @@
 		(uuid "9a174123-44a4-4e4a-b1e9-22c1db65d5d3")
 	)
 	(label "OUT_K17"
-		(at 596.9 161.29 180)
+		(at 553.72 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12795,7 +13001,7 @@
 		(uuid "9d88261e-4387-4b82-be9b-e500cc463feb")
 	)
 	(label "OUT_K36"
-		(at 636.27 128.27 180)
+		(at 553.72 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12839,7 +13045,7 @@
 		(uuid "9ff41a7b-db10-40bb-b63d-fc5ee9855508")
 	)
 	(label "OUT_K15"
-		(at 596.9 156.21 180)
+		(at 553.72 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12894,7 +13100,7 @@
 		(uuid "a0aa53ad-f7b8-46f7-83e7-e9965261743b")
 	)
 	(label "OUT_K11"
-		(at 596.9 146.05 180)
+		(at 553.72 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12905,7 +13111,7 @@
 		(uuid "a14e7ba0-8be5-4afa-a35c-62ee5f898a90")
 	)
 	(label "OUT_K37"
-		(at 636.27 130.81 180)
+		(at 553.72 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12916,7 +13122,7 @@
 		(uuid "a17dc62b-63fd-4547-94fc-b26c0b91af4d")
 	)
 	(label "OUT_K51"
-		(at 636.27 166.37 180)
+		(at 553.72 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13015,7 +13221,7 @@
 		(uuid "a75a78b7-2314-4434-81c7-d5deb9137004")
 	)
 	(label "OUT_K50"
-		(at 636.27 163.83 180)
+		(at 553.72 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13059,7 +13265,7 @@
 		(uuid "ab4ec3dd-3c0d-4eea-b1da-c04add0c8e85")
 	)
 	(label "OUT_K2"
-		(at 596.9 123.19 180)
+		(at 553.72 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13103,7 +13309,7 @@
 		(uuid "af1b5c4e-0d9c-4557-b8ef-406bb6af8a13")
 	)
 	(label "OUT_K21"
-		(at 596.9 171.45 180)
+		(at 553.72 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13290,7 +13496,7 @@
 		(uuid "bef000de-1309-4199-b5f3-75cdc151931a")
 	)
 	(label "OUT_K54"
-		(at 636.27 173.99 180)
+		(at 553.72 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13301,7 +13507,7 @@
 		(uuid "c009f543-638e-401f-9135-686911b40ee0")
 	)
 	(label "OUT_K24"
-		(at 596.9 179.07 180)
+		(at 553.72 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13356,7 +13562,7 @@
 		(uuid "c3b8f680-2454-4a48-804c-3e700c3df1fc")
 	)
 	(label "OUT_K35"
-		(at 636.27 125.73 180)
+		(at 553.72 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13455,7 +13661,7 @@
 		(uuid "d1c7279d-07c5-45b1-a62a-fe81b89bbe29")
 	)
 	(label "OUT_K7"
-		(at 596.9 135.89 180)
+		(at 553.72 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13488,7 +13694,7 @@
 		(uuid "d5770f8a-98ce-4d30-b6e4-fabaa2faf4be")
 	)
 	(label "OUT_K13"
-		(at 596.9 151.13 180)
+		(at 553.72 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13532,7 +13738,7 @@
 		(uuid "d841c0f5-d9c6-4b70-a0df-c20d02f29f5e")
 	)
 	(label "OUT_K43"
-		(at 636.27 146.05 180)
+		(at 553.72 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13554,7 +13760,7 @@
 		(uuid "db6b2f4d-2628-4338-853b-ac483e2ca4d0")
 	)
 	(label "OUT_K28"
-		(at 596.9 189.23 180)
+		(at 553.72 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13565,7 +13771,7 @@
 		(uuid "dc62c7b7-54da-4058-850b-43906a65a0fc")
 	)
 	(label "OUT_K48"
-		(at 636.27 158.75 180)
+		(at 553.72 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13631,7 +13837,7 @@
 		(uuid "e0a197c8-058d-4df5-9040-5be407f0ea05")
 	)
 	(label "OUT_K12"
-		(at 596.9 148.59 180)
+		(at 553.72 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13664,7 +13870,7 @@
 		(uuid "e167d6a4-8925-4e5d-8b15-997606f1f7a0")
 	)
 	(label "OUT_K39"
-		(at 636.27 135.89 180)
+		(at 553.72 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13686,7 +13892,7 @@
 		(uuid "e28ce503-a9fc-420c-b1d3-b346a9e38d06")
 	)
 	(label "OUT_K30"
-		(at 596.9 194.31 180)
+		(at 553.72 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13708,7 +13914,7 @@
 		(uuid "e53ae659-6cc9-4f66-8835-9fa7e99fe16a")
 	)
 	(label "OUT_K6"
-		(at 596.9 133.35 180)
+		(at 553.72 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13719,7 +13925,7 @@
 		(uuid "e70a19e6-e9cf-4b4d-bfe8-2070c3829982")
 	)
 	(label "OUT_K42"
-		(at 636.27 143.51 180)
+		(at 553.72 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13752,7 +13958,7 @@
 		(uuid "eae234d3-5084-4ce7-936b-1022cc828935")
 	)
 	(label "OUT_K63"
-		(at 636.27 196.85 180)
+		(at 553.72 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13763,7 +13969,7 @@
 		(uuid "eae5091d-b157-47e8-ad5d-a7377d9a90cf")
 	)
 	(label "OUT_K45"
-		(at 636.27 151.13 180)
+		(at 553.72 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13774,7 +13980,7 @@
 		(uuid "efa64b77-79d1-4783-9cd7-175f9df7f7a1")
 	)
 	(label "OUT_K62"
-		(at 636.27 194.31 180)
+		(at 553.72 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14007,7 +14213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 289.56 90)
 			(effects
 				(font
@@ -14026,6 +14232,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 289.56 0)
 			(effects
 				(font
@@ -14334,7 +14549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 263.652 90)
 			(effects
 				(font
@@ -14353,6 +14568,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 265.43 0)
 			(effects
 				(font
@@ -14466,7 +14690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 337.312 90)
 			(effects
 				(font
@@ -14485,6 +14709,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 339.09 0)
 			(effects
 				(font
@@ -14671,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 289.56 90)
 			(effects
 				(font
@@ -14690,6 +14923,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 289.56 0)
 			(effects
 				(font
@@ -14941,7 +15183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 299.212 90)
 			(effects
 				(font
@@ -14960,6 +15202,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 300.99 0)
 			(effects
 				(font
@@ -15008,7 +15259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 263.652 90)
 			(effects
 				(font
@@ -15027,6 +15278,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 265.43 0)
 			(effects
 				(font
@@ -15140,7 +15400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 337.312 90)
 			(effects
 				(font
@@ -15159,6 +15419,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 339.09 0)
 			(effects
 				(font
@@ -15207,7 +15476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 80.772 90)
 			(effects
 				(font
@@ -15226,6 +15495,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 82.55 0)
 			(effects
 				(font
@@ -15274,7 +15552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 327.66 90)
 			(effects
 				(font
@@ -15293,6 +15571,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 327.66 0)
 			(effects
 				(font
@@ -15544,7 +15831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 153.162 90)
 			(effects
 				(font
@@ -15563,6 +15850,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 154.94 0)
 			(effects
 				(font
@@ -15683,7 +15979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 226.822 90)
 			(effects
 				(font
@@ -15702,6 +15998,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 228.6 0)
 			(effects
 				(font
@@ -15753,7 +16058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 243.84 416.56 0)
 			(effects
 				(font
@@ -15880,7 +16185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 226.822 90)
 			(effects
 				(font
@@ -15899,6 +16204,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 228.6 0)
 			(effects
 				(font
@@ -16019,7 +16333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 181.61 90)
 			(effects
 				(font
@@ -16038,6 +16352,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 181.61 0)
 			(effects
 				(font
@@ -16086,7 +16409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 107.95 90)
 			(effects
 				(font
@@ -16105,6 +16428,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 107.95 0)
 			(effects
 				(font
@@ -16782,7 +17114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 401.32 429.26 0)
 			(effects
 				(font
@@ -16894,7 +17226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 71.12 90)
 			(effects
 				(font
@@ -16913,6 +17245,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 71.12 0)
 			(effects
 				(font
@@ -16961,7 +17302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 254 90)
 			(effects
 				(font
@@ -16980,6 +17321,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 254 0)
 			(effects
 				(font
@@ -17223,7 +17573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 107.95 90)
 			(effects
 				(font
@@ -17242,6 +17592,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -17490,7 +17849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 692.15 436.88 0)
 			(effects
 				(font
@@ -17554,7 +17913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 143.51 90)
 			(effects
 				(font
@@ -17573,6 +17932,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 143.51 0)
 			(effects
 				(font
@@ -17621,7 +17989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 80.772 90)
 			(effects
 				(font
@@ -17640,6 +18008,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 82.55 0)
 			(effects
 				(font
@@ -17688,7 +18065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 181.61 90)
 			(effects
 				(font
@@ -17707,6 +18084,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 181.61 0)
 			(effects
 				(font
@@ -17755,7 +18141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 299.212 90)
 			(effects
 				(font
@@ -17774,6 +18160,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 300.99 0)
 			(effects
 				(font
@@ -18020,7 +18415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 267.97 463.55 0)
 			(effects
 				(font
@@ -18132,7 +18527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 327.66 90)
 			(effects
 				(font
@@ -18151,6 +18546,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 327.66 0)
 			(effects
 				(font
@@ -18199,7 +18603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 226.822 90)
 			(effects
 				(font
@@ -18218,6 +18622,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 228.6 0)
 			(effects
 				(font
@@ -18334,7 +18747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 430.53 416.56 0)
 			(effects
 				(font
@@ -18461,7 +18874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 107.95 90)
 			(effects
 				(font
@@ -18480,6 +18893,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 107.95 0)
 			(effects
 				(font
@@ -18528,7 +18950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 117.602 90)
 			(effects
 				(font
@@ -18547,6 +18969,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 119.38 0)
 			(effects
 				(font
@@ -18595,7 +19026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 71.12 90)
 			(effects
 				(font
@@ -18614,6 +19045,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 71.12 0)
 			(effects
 				(font
@@ -19186,7 +19626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 327.66 90)
 			(effects
 				(font
@@ -19205,6 +19645,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 327.66 0)
 			(effects
 				(font
@@ -19515,7 +19964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 254 90)
 			(effects
 				(font
@@ -19534,6 +19983,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 254 0)
 			(effects
 				(font
@@ -19582,7 +20040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 143.51 90)
 			(effects
 				(font
@@ -19601,6 +20059,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 143.51 0)
 			(effects
 				(font
@@ -19913,7 +20380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.0552 464.82 0)
 			(effects
 				(font
@@ -20255,7 +20722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 153.162 90)
 			(effects
 				(font
@@ -20274,6 +20741,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -20387,7 +20863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 263.652 90)
 			(effects
 				(font
@@ -20406,6 +20882,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 265.43 0)
 			(effects
 				(font
@@ -20454,7 +20939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 80.772 90)
 			(effects
 				(font
@@ -20473,6 +20958,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 82.55 0)
 			(effects
 				(font
@@ -20654,7 +21148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 368.3 416.56 0)
 			(effects
 				(font
@@ -20918,7 +21412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 289.56 90)
 			(effects
 				(font
@@ -20937,6 +21431,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 289.56 0)
 			(effects
 				(font
@@ -20985,7 +21488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 181.61 90)
 			(effects
 				(font
@@ -21004,6 +21507,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 181.61 0)
 			(effects
 				(font
@@ -21182,7 +21694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 217.17 90)
 			(effects
 				(font
@@ -21201,6 +21713,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 217.17 0)
 			(effects
 				(font
@@ -21524,7 +22045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 226.822 90)
 			(effects
 				(font
@@ -21543,6 +22064,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 228.6 0)
 			(effects
 				(font
@@ -21803,7 +22333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.0852 487.68 0)
 			(effects
 				(font
@@ -21873,7 +22403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 487.68 0)
 			(effects
 				(font
@@ -22222,7 +22752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 80.772 90)
 			(effects
 				(font
@@ -22241,6 +22771,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 82.55 0)
 			(effects
 				(font
@@ -22488,7 +23027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 679.45 416.56 0)
 			(effects
 				(font
@@ -22615,7 +23154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 107.95 90)
 			(effects
 				(font
@@ -22634,6 +23173,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 107.95 0)
 			(effects
 				(font
@@ -23075,7 +23623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 80.772 90)
 			(effects
 				(font
@@ -23094,6 +23642,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 82.55 0)
 			(effects
 				(font
@@ -23143,7 +23700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 199.39 411.48 0)
 			(effects
 				(font
@@ -23162,6 +23719,15 @@
 			)
 		)
 		(property "Description" "Single OR Gate, Low-Voltage CMOS"
+			(at 199.39 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7470	"
 			(at 199.39 411.48 0)
 			(effects
 				(font
@@ -23357,7 +23923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 254 90)
 			(effects
 				(font
@@ -23376,6 +23942,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 254 0)
 			(effects
 				(font
@@ -23620,7 +24195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 117.602 90)
 			(effects
 				(font
@@ -23639,6 +24214,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 119.38 0)
 			(effects
 				(font
@@ -23687,7 +24271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 263.652 90)
 			(effects
 				(font
@@ -23706,6 +24290,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 265.43 0)
 			(effects
 				(font
@@ -23894,7 +24487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 306.07 416.56 0)
 			(effects
 				(font
@@ -24360,7 +24953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 289.56 90)
 			(effects
 				(font
@@ -24379,6 +24972,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 289.56 0)
 			(effects
 				(font
@@ -24564,7 +25166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 289.56 90)
 			(effects
 				(font
@@ -24583,6 +25185,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 289.56 0)
 			(effects
 				(font
@@ -25086,7 +25697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 143.51 90)
 			(effects
 				(font
@@ -25105,6 +25716,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 143.51 0)
 			(effects
 				(font
@@ -25220,7 +25840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 588.01 429.26 0)
 			(effects
 				(font
@@ -25463,7 +26083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 143.51 90)
 			(effects
 				(font
@@ -25482,6 +26102,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 143.51 0)
 			(effects
 				(font
@@ -25530,7 +26159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 117.602 90)
 			(effects
 				(font
@@ -25549,6 +26178,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 119.38 0)
 			(effects
 				(font
@@ -25669,7 +26307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 117.602 90)
 			(effects
 				(font
@@ -25688,6 +26326,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 119.38 0)
 			(effects
 				(font
@@ -25808,7 +26455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 289.56 90)
 			(effects
 				(font
@@ -25827,6 +26474,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 289.56 0)
 			(effects
 				(font
@@ -25878,7 +26534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.4452 487.68 0)
 			(effects
 				(font
@@ -26010,7 +26666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 217.17 90)
 			(effects
 				(font
@@ -26029,6 +26685,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 217.17 0)
 			(effects
 				(font
@@ -26217,7 +26882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.0552 487.68 0)
 			(effects
 				(font
@@ -26480,7 +27145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 327.66 90)
 			(effects
 				(font
@@ -26499,6 +27164,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 327.66 0)
 			(effects
 				(font
@@ -26547,7 +27221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 217.17 90)
 			(effects
 				(font
@@ -26566,6 +27240,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 217.17 0)
 			(effects
 				(font
@@ -26614,7 +27297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 254 90)
 			(effects
 				(font
@@ -26633,6 +27316,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 254 0)
 			(effects
 				(font
@@ -27079,7 +27771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 191.262 90)
 			(effects
 				(font
@@ -27098,6 +27790,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 193.04 0)
 			(effects
 				(font
@@ -27214,7 +27915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 292.1 463.55 0)
 			(effects
 				(font
@@ -27257,40 +27958,40 @@
 			(uuid "acef0223-3d89-4e85-8a68-17e98ef4abb4")
 		)
 		(pin "9"
-			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94765")
+			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94766")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f418945002")
+			(uuid "581b5747-198a-4549-b9ca-98f418945003")
 		)
 		(pin "8"
-			(uuid "0622cd5f-87d1-47ce-97a0-6efe87683339")
+			(uuid "0622cd5f-87d1-47ce-97a0-6efe8768333a")
 		)
 		(pin "3"
-			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de71d")
+			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de71e")
 		)
 		(pin "4"
-			(uuid "787d55fc-3589-465c-9fce-77627a86a94c")
+			(uuid "787d55fc-3589-465c-9fce-77627a86a94d")
 		)
 		(pin "1"
-			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a1")
+			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a2")
 		)
 		(pin "10"
-			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42bb")
+			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42bc")
 		)
 		(pin "2"
-			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef1")
+			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef2")
 		)
 		(pin "5"
-			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c81")
+			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c82")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a5")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a6")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f64")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f65")
 		)
 		(pin "6"
-			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc57f")
+			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc580")
 		)
 		(instances
 			(project "kathodeDriver"
@@ -27326,7 +28027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 254 90)
 			(effects
 				(font
@@ -27345,6 +28046,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 254 0)
 			(effects
 				(font
@@ -27393,7 +28103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 263.652 90)
 			(effects
 				(font
@@ -27412,6 +28122,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 265.43 0)
 			(effects
 				(font
@@ -27527,7 +28246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 276.86 429.26 0)
 			(effects
 				(font
@@ -27570,40 +28289,40 @@
 			(uuid "1d6f5a8a-3637-4631-9970-6979f578f873")
 		)
 		(pin "9"
-			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94766")
+			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94767")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f418945003")
+			(uuid "581b5747-198a-4549-b9ca-98f418945004")
 		)
 		(pin "8"
-			(uuid "0622cd5f-87d1-47ce-97a0-6efe8768333a")
+			(uuid "0622cd5f-87d1-47ce-97a0-6efe8768333b")
 		)
 		(pin "3"
-			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de71e")
+			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de720")
 		)
 		(pin "4"
-			(uuid "787d55fc-3589-465c-9fce-77627a86a94d")
+			(uuid "787d55fc-3589-465c-9fce-77627a86a94e")
 		)
 		(pin "1"
-			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a2")
+			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a4")
 		)
 		(pin "10"
-			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42bc")
+			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42bd")
 		)
 		(pin "2"
-			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef2")
+			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef4")
 		)
 		(pin "5"
-			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c82")
+			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c83")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a6")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a7")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f65")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f66")
 		)
 		(pin "6"
-			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc580")
+			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc581")
 		)
 		(instances
 			(project "kathodeDriver"
@@ -27712,7 +28431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 334.518 90)
 			(effects
 				(font
@@ -27731,6 +28450,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 172.72 332.74 0)
 			(effects
 				(font
@@ -27982,7 +28710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 71.12 90)
 			(effects
 				(font
@@ -28001,6 +28729,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 71.12 0)
 			(effects
 				(font
@@ -28194,7 +28931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 525.78 429.26 0)
 			(effects
 				(font
@@ -28231,46 +28968,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a681")
+			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a682")
 		)
 		(pin "14"
-			(uuid "1d6f5a8a-3637-4631-9970-6979f578f873")
+			(uuid "1d6f5a8a-3637-4631-9970-6979f578f874")
 		)
 		(pin "9"
-			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94766")
+			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc94768")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f418945003")
+			(uuid "581b5747-198a-4549-b9ca-98f418945005")
 		)
 		(pin "8"
-			(uuid "0622cd5f-87d1-47ce-97a0-6efe8768333a")
+			(uuid "0622cd5f-87d1-47ce-97a0-6efe8768333c")
 		)
 		(pin "3"
 			(uuid "af580264-ebb1-4559-a116-621435b63e3f")
 		)
 		(pin "4"
-			(uuid "787d55fc-3589-465c-9fce-77627a86a94d")
+			(uuid "787d55fc-3589-465c-9fce-77627a86a94f")
 		)
 		(pin "1"
 			(uuid "dd116c31-ec0c-4b65-8d3c-9423f367738e")
 		)
 		(pin "10"
-			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42bc")
+			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42be")
 		)
 		(pin "2"
 			(uuid "5bfee137-d81b-4002-b2d8-e072b8428d45")
 		)
 		(pin "5"
-			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c82")
+			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c84")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a6")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a8")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f65")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f67")
 		)
 		(pin "6"
-			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc580")
+			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc582")
 		)
 		(instances
 			(project "kathodeDriver"
@@ -28372,7 +29109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 143.51 90)
 			(effects
 				(font
@@ -28391,6 +29128,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -28439,7 +29185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 327.66 90)
 			(effects
 				(font
@@ -28458,6 +29204,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 327.66 0)
 			(effects
 				(font
@@ -28506,7 +29261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 153.162 90)
 			(effects
 				(font
@@ -28525,6 +29280,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 154.94 0)
 			(effects
 				(font
@@ -28836,7 +29600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.4452 464.82 0)
 			(effects
 				(font
@@ -28903,7 +29667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 107.95 90)
 			(effects
 				(font
@@ -28922,6 +29686,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 107.95 0)
 			(effects
 				(font
@@ -28970,7 +29743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 153.162 90)
 			(effects
 				(font
@@ -28989,6 +29762,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 154.94 0)
 			(effects
 				(font
@@ -29037,7 +29819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 117.602 90)
 			(effects
 				(font
@@ -29056,6 +29838,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 119.38 0)
 			(effects
 				(font
@@ -29313,7 +30104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 71.12 90)
 			(effects
 				(font
@@ -29332,6 +30123,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 71.12 0)
 			(effects
 				(font
@@ -29380,7 +30180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 337.312 90)
 			(effects
 				(font
@@ -29399,6 +30199,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 339.09 0)
 			(effects
 				(font
@@ -29612,166 +30421,6 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x32")
-		(at 601.98 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d0c9814-41ac-46f0-be9c-985080643b75")
-		(property "Reference" "J3"
-			(at 604.52 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x32"
-			(at 604.52 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 601.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 601.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 601.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "24"
-			(uuid "37764b00-0ad5-4ee1-bda2-d002c13a7975")
-		)
-		(pin "29"
-			(uuid "9972b8b8-7ae5-49e1-af30-9dec126747ef")
-		)
-		(pin "10"
-			(uuid "c26df5c9-fe0f-4b62-831e-29b834c169a2")
-		)
-		(pin "13"
-			(uuid "053a6a8c-af13-41e0-b904-092ce9dc5452")
-		)
-		(pin "9"
-			(uuid "08a222c5-2033-40dc-bc2d-d58c9e9a4ef4")
-		)
-		(pin "3"
-			(uuid "b64f9ab3-4e2c-4f63-9863-938fc84cff65")
-		)
-		(pin "22"
-			(uuid "2d4a5396-7966-44f8-95d5-2717bd68dc38")
-		)
-		(pin "25"
-			(uuid "ed423a80-a50b-4ea7-b088-d23f200e720f")
-		)
-		(pin "26"
-			(uuid "870079e7-abdd-47c3-bc1d-3b148cfa5299")
-		)
-		(pin "28"
-			(uuid "12c5dce6-2c04-4159-966c-897452b04430")
-		)
-		(pin "1"
-			(uuid "a6cbea4e-46a4-4c3c-bd24-ff7cfa6eea16")
-		)
-		(pin "7"
-			(uuid "436778dc-852c-4b14-aa9e-81981b6d86a6")
-		)
-		(pin "16"
-			(uuid "77d146a3-73cf-4248-85ba-bad549e5d5b5")
-		)
-		(pin "4"
-			(uuid "948b6d6d-bc4b-41e5-b27f-55ebe21c86c4")
-		)
-		(pin "17"
-			(uuid "9c573ca4-49eb-4454-9f66-ce9ece6307d5")
-		)
-		(pin "15"
-			(uuid "bf8f83a4-e3ae-47d1-ade5-24dd3f926dd3")
-		)
-		(pin "19"
-			(uuid "cde75722-2782-47fa-88c0-dd5c9e55b801")
-		)
-		(pin "32"
-			(uuid "35b47b0b-c078-447d-8eed-88d1c158bc85")
-		)
-		(pin "27"
-			(uuid "a9e70be4-31d0-4a92-bd73-5ce9097becd7")
-		)
-		(pin "20"
-			(uuid "0f117649-c304-42cf-8e48-145eb8094a48")
-		)
-		(pin "30"
-			(uuid "cf728b42-5216-41e3-8c97-c76774a039cb")
-		)
-		(pin "5"
-			(uuid "371458ce-4460-4afa-aa86-a2d272d6995f")
-		)
-		(pin "21"
-			(uuid "8ee3c9ff-14c7-4285-ac2b-d1af7d3c5485")
-		)
-		(pin "18"
-			(uuid "33829554-5fe9-435c-bd78-2dcccb2ee6bf")
-		)
-		(pin "12"
-			(uuid "290f0120-c21b-4138-ab1c-0867eb15af06")
-		)
-		(pin "11"
-			(uuid "15bcd386-ede7-4281-994e-d55899bba272")
-		)
-		(pin "8"
-			(uuid "0df0b966-2dc2-4d5d-be07-6d7884f5e790")
-		)
-		(pin "6"
-			(uuid "0dd4f9cf-610e-46dd-99cb-9f779a82cff6")
-		)
-		(pin "23"
-			(uuid "bc02b686-1863-42d6-8ca3-e075df08281d")
-		)
-		(pin "14"
-			(uuid "b082eb0c-93f5-40ad-a501-cb470b386137")
-		)
-		(pin "31"
-			(uuid "0fa74751-e6fa-4a3b-b830-3ea1c6f85560")
-		)
-		(pin "2"
-			(uuid "19a62f7c-47f5-4aaf-90d6-b9c026891859")
-		)
-		(instances
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -30136,7 +30785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 143.51 90)
 			(effects
 				(font
@@ -30155,6 +30804,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 143.51 0)
 			(effects
 				(font
@@ -30275,7 +30933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 153.162 90)
 			(effects
 				(font
@@ -30294,6 +30952,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 154.94 0)
 			(effects
 				(font
@@ -30482,7 +31149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 492.76 416.56 0)
 			(effects
 				(font
@@ -30885,7 +31552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 347.98 0)
 			(effects
 				(font
@@ -31018,7 +31685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 226.822 90)
 			(effects
 				(font
@@ -31037,6 +31704,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 228.6 0)
 			(effects
 				(font
@@ -31151,7 +31827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 707.39 424.18 0)
 			(effects
 				(font
@@ -31194,166 +31870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x32")
-		(at 641.35 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b2199d9-0352-4d56-b68d-bc66bb502be3")
-		(property "Reference" "J4"
-			(at 643.89 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x32"
-			(at 643.89 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 641.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 641.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 641.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "24"
-			(uuid "dec2046d-6f32-4ce0-a0d1-67e589151e8e")
-		)
-		(pin "29"
-			(uuid "c2507dce-3587-4b7c-9d02-fa744337187b")
-		)
-		(pin "10"
-			(uuid "a4e59e22-c1c4-41e2-9f6e-35e1dfe666bc")
-		)
-		(pin "13"
-			(uuid "429a7cbc-c83b-4f89-a8dd-2dbbfdd884e7")
-		)
-		(pin "9"
-			(uuid "aa27792b-4739-4dbd-b30e-f8660f36d055")
-		)
-		(pin "3"
-			(uuid "0dbb9668-eb52-4a4f-af82-e5ab6ab5c3b2")
-		)
-		(pin "22"
-			(uuid "e0c26700-3717-4842-976a-80ab7ead3585")
-		)
-		(pin "25"
-			(uuid "d500c11f-2a61-497f-9391-5c41cae10c7e")
-		)
-		(pin "26"
-			(uuid "a7b54082-8d59-4d07-ae53-bb8e90dbe2e8")
-		)
-		(pin "28"
-			(uuid "e01b1380-aafd-4f2f-ba26-52c41f97f48e")
-		)
-		(pin "1"
-			(uuid "d0090517-0eba-4158-8388-7a17451c25bd")
-		)
-		(pin "7"
-			(uuid "98e1e633-6102-4830-a1d1-dbf8f892ee38")
-		)
-		(pin "16"
-			(uuid "c1220764-44b0-4edc-b529-c3f04ce66b0e")
-		)
-		(pin "4"
-			(uuid "39702417-d325-453e-88a1-10c5c9900954")
-		)
-		(pin "17"
-			(uuid "346ea43b-03d1-4bf1-88ca-c8fabf3819b8")
-		)
-		(pin "15"
-			(uuid "a4c77b4a-68da-46aa-b733-d525bcc04203")
-		)
-		(pin "19"
-			(uuid "daf84b6e-2c9c-4f5a-bc8b-8155b352bc44")
-		)
-		(pin "32"
-			(uuid "110f85a1-5b45-4ca0-a452-af8a887073b5")
-		)
-		(pin "27"
-			(uuid "3c16927c-403c-4d47-b378-d8cb87711083")
-		)
-		(pin "20"
-			(uuid "35b4dafa-09fd-4880-b974-98a5fdbf76ea")
-		)
-		(pin "30"
-			(uuid "f50b288b-6776-4fee-a345-36da38e1638c")
-		)
-		(pin "5"
-			(uuid "034fc26e-4622-42c0-9536-88484cc80c79")
-		)
-		(pin "21"
-			(uuid "cff27a0f-3618-4573-a693-b1ce8ce38262")
-		)
-		(pin "18"
-			(uuid "639cb1b7-b481-4641-bf82-3a8edf3be28a")
-		)
-		(pin "12"
-			(uuid "3b42f715-1564-41f0-8c46-64e0e8256665")
-		)
-		(pin "11"
-			(uuid "c9dfaf7e-a1f9-41a6-b23f-c44fcc3bd58f")
-		)
-		(pin "8"
-			(uuid "2fceabec-aac3-4aa9-8fe0-21c793cd6fbd")
-		)
-		(pin "6"
-			(uuid "1e1ef6f5-bf57-4ec9-9560-640fd00fd482")
-		)
-		(pin "23"
-			(uuid "d344dcd7-c058-4893-9ead-017b58590f86")
-		)
-		(pin "14"
-			(uuid "1f9df112-5422-4556-a897-5d4a4260a712")
-		)
-		(pin "31"
-			(uuid "2f7376cc-e96c-4d76-adbc-941f79a0df6f")
-		)
-		(pin "2"
-			(uuid "c6c032cd-cb88-41ce-b577-31d516a8e38f")
-		)
-		(instances
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:R")
 		(at 421.64 193.04 270)
 		(unit 1)
@@ -31378,7 +31894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 191.262 90)
 			(effects
 				(font
@@ -31397,6 +31913,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 193.04 0)
 			(effects
 				(font
@@ -31576,7 +32101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 299.212 90)
 			(effects
 				(font
@@ -31595,6 +32120,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 300.99 0)
 			(effects
 				(font
@@ -31849,7 +32383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 692.15 431.8 0)
 			(effects
 				(font
@@ -32188,7 +32722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 263.652 90)
 			(effects
 				(font
@@ -32207,6 +32741,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 265.43 0)
 			(effects
 				(font
@@ -32320,7 +32863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 327.66 90)
 			(effects
 				(font
@@ -32339,6 +32882,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 327.66 0)
 			(effects
 				(font
@@ -32387,7 +32939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 143.51 90)
 			(effects
 				(font
@@ -32406,6 +32958,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 143.51 0)
 			(effects
 				(font
@@ -32457,7 +33018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 464.82 0)
 			(effects
 				(font
@@ -32596,7 +33157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 117.602 90)
 			(effects
 				(font
@@ -32615,6 +33176,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 119.38 0)
 			(effects
 				(font
@@ -32663,7 +33233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 433.832 71.12 90)
 			(effects
 				(font
@@ -32682,6 +33252,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 435.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 435.61 71.12 0)
 			(effects
 				(font
@@ -32730,7 +33309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 217.17 90)
 			(effects
 				(font
@@ -32749,6 +33328,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 217.17 0)
 			(effects
 				(font
@@ -32797,7 +33385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 71.12 90)
 			(effects
 				(font
@@ -32816,6 +33404,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 71.12 0)
 			(effects
 				(font
@@ -32936,7 +33533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 191.262 90)
 			(effects
 				(font
@@ -32955,6 +33552,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 193.04 0)
 			(effects
 				(font
@@ -33004,7 +33610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 339.09 429.26 0)
 			(effects
 				(font
@@ -33041,43 +33647,43 @@
 			)
 		)
 		(pin "7"
-			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a687")
+			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a688")
 		)
 		(pin "14"
-			(uuid "1d6f5a8a-3637-4631-9970-6979f578f879")
+			(uuid "1d6f5a8a-3637-4631-9970-6979f578f87a")
 		)
 		(pin "9"
-			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc9476c")
+			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc9476d")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f418945009")
+			(uuid "581b5747-198a-4549-b9ca-98f41894500a")
 		)
 		(pin "8"
-			(uuid "0622cd5f-87d1-47ce-97a0-6efe87683340")
+			(uuid "0622cd5f-87d1-47ce-97a0-6efe87683341")
 		)
 		(pin "3"
-			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de71f")
+			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de721")
 		)
 		(pin "4"
 			(uuid "787d55fc-3589-465c-9fce-77627a86a953")
 		)
 		(pin "1"
-			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a3")
+			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a5")
 		)
 		(pin "10"
-			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42c2")
+			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42c3")
 		)
 		(pin "2"
-			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef3")
+			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef5")
 		)
 		(pin "5"
 			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c88")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23ac")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23ad")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f6b")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f6c")
 		)
 		(pin "6"
 			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc586")
@@ -33316,7 +33922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 617.22 416.56 0)
 			(effects
 				(font
@@ -33443,7 +34049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 217.17 90)
 			(effects
 				(font
@@ -33462,6 +34068,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 217.17 0)
 			(effects
 				(font
@@ -33575,7 +34190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 289.56 90)
 			(effects
 				(font
@@ -33594,6 +34209,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 289.56 0)
 			(effects
 				(font
@@ -33710,7 +34334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 487.68 0)
 			(effects
 				(font
@@ -33777,7 +34401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 153.162 90)
 			(effects
 				(font
@@ -33796,6 +34420,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 154.94 0)
 			(effects
 				(font
@@ -34039,7 +34672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 80.772 90)
 			(effects
 				(font
@@ -34058,6 +34691,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 82.55 0)
 			(effects
 				(font
@@ -34106,7 +34748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 263.652 90)
 			(effects
 				(font
@@ -34125,6 +34767,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 265.43 0)
 			(effects
 				(font
@@ -34310,7 +34961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 191.262 90)
 			(effects
 				(font
@@ -34329,6 +34980,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 193.04 0)
 			(effects
 				(font
@@ -34443,7 +35103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 650.24 429.26 0)
 			(effects
 				(font
@@ -34480,46 +35140,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a67f")
+			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a683")
 		)
 		(pin "14"
-			(uuid "1d6f5a8a-3637-4631-9970-6979f578f871")
+			(uuid "1d6f5a8a-3637-4631-9970-6979f578f875")
 		)
 		(pin "9"
 			(uuid "210d9da0-1bfb-4c22-824a-971b9c43a725")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f418945001")
+			(uuid "581b5747-198a-4549-b9ca-98f418945006")
 		)
 		(pin "8"
 			(uuid "799cc456-71df-4385-9d7c-081d99a72df1")
 		)
 		(pin "3"
-			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de71c")
+			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de722")
 		)
 		(pin "4"
-			(uuid "787d55fc-3589-465c-9fce-77627a86a94b")
+			(uuid "787d55fc-3589-465c-9fce-77627a86a950")
 		)
 		(pin "1"
-			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a0")
+			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a6")
 		)
 		(pin "10"
 			(uuid "5c52c3cf-d66d-483d-a46b-61e8bdfc5608")
 		)
 		(pin "2"
-			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef0")
+			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef6")
 		)
 		(pin "5"
-			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c80")
+			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c85")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a4")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23a9")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f63")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f68")
 		)
 		(pin "6"
-			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc57e")
+			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc583")
 		)
 		(instances
 			(project "kathodeDriver"
@@ -34620,7 +35280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 217.17 90)
 			(effects
 				(font
@@ -34639,6 +35299,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 217.17 0)
 			(effects
 				(font
@@ -34687,7 +35356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 153.162 90)
 			(effects
 				(font
@@ -34706,6 +35375,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 154.94 0)
 			(effects
 				(font
@@ -34755,7 +35433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 332.74 0)
 			(effects
 				(font
@@ -34822,7 +35500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 117.602 90)
 			(effects
 				(font
@@ -34841,6 +35519,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 119.38 0)
 			(effects
 				(font
@@ -35091,7 +35778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 107.95 90)
 			(effects
 				(font
@@ -35110,6 +35797,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 107.95 0)
 			(effects
 				(font
@@ -35288,7 +35984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 107.95 90)
 			(effects
 				(font
@@ -35307,6 +36003,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 107.95 0)
 			(effects
 				(font
@@ -35486,7 +36191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 463.55 429.26 0)
 			(effects
 				(font
@@ -35523,43 +36228,43 @@
 			)
 		)
 		(pin "7"
-			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a688")
+			(uuid "ebb6bce1-d8a5-424d-a94a-626b0237a689")
 		)
 		(pin "14"
-			(uuid "1d6f5a8a-3637-4631-9970-6979f578f87a")
+			(uuid "1d6f5a8a-3637-4631-9970-6979f578f87b")
 		)
 		(pin "9"
-			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc9476d")
+			(uuid "dcbd0323-a5af-49a7-a8a4-0ef4dbc9476e")
 		)
 		(pin "11"
-			(uuid "581b5747-198a-4549-b9ca-98f41894500a")
+			(uuid "581b5747-198a-4549-b9ca-98f41894500b")
 		)
 		(pin "8"
-			(uuid "0622cd5f-87d1-47ce-97a0-6efe87683341")
+			(uuid "0622cd5f-87d1-47ce-97a0-6efe87683342")
 		)
 		(pin "3"
-			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de720")
+			(uuid "e3dbc292-f58e-4c4a-8d94-80b9b50de723")
 		)
 		(pin "4"
 			(uuid "787d55fc-3589-465c-9fce-77627a86a954")
 		)
 		(pin "1"
-			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a4")
+			(uuid "56ed4946-765a-4227-92a6-b84ab0cd00a7")
 		)
 		(pin "10"
-			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42c3")
+			(uuid "0ef9a84d-00fb-4d51-a6fd-f7a2023f42c4")
 		)
 		(pin "2"
-			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef4")
+			(uuid "b71baf8d-c8f5-4fae-bdde-4e6f102bcef7")
 		)
 		(pin "5"
 			(uuid "50f5706a-1a96-4b46-b1ed-1dc1bb071c89")
 		)
 		(pin "13"
-			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23ad")
+			(uuid "16de78c2-705d-4376-9f80-ea2f92bb23ae")
 		)
 		(pin "12"
-			(uuid "9de74241-dbe8-44ca-a235-70b329265f6c")
+			(uuid "9de74241-dbe8-44ca-a235-70b329265f6d")
 		)
 		(pin "6"
 			(uuid "20cc35d9-a214-4ff2-8ea7-55da29fcc587")
@@ -35598,7 +36303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 181.61 90)
 			(effects
 				(font
@@ -35617,6 +36322,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 181.61 0)
 			(effects
 				(font
@@ -35665,7 +36379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 337.312 90)
 			(effects
 				(font
@@ -35684,6 +36398,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 339.09 0)
 			(effects
 				(font
@@ -35804,7 +36527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 226.822 90)
 			(effects
 				(font
@@ -35823,6 +36546,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 328.93 228.6 0)
 			(effects
 				(font
@@ -35943,7 +36675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 71.12 90)
 			(effects
 				(font
@@ -35962,6 +36694,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 71.12 0)
 			(effects
 				(font
@@ -36013,7 +36754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 554.99 416.56 0)
 			(effects
 				(font
@@ -36140,7 +36881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 254 90)
 			(effects
 				(font
@@ -36159,6 +36900,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 254 0)
 			(effects
 				(font
@@ -36474,7 +37224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 181.61 90)
 			(effects
 				(font
@@ -36493,6 +37243,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 181.61 0)
 			(effects
 				(font
@@ -36803,7 +37562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 153.162 90)
 			(effects
 				(font
@@ -36822,6 +37581,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 154.94 0)
 			(effects
 				(font
@@ -36870,7 +37638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 402.082 254 90)
 			(effects
 				(font
@@ -36889,6 +37657,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 403.86 254 0)
 			(effects
 				(font
@@ -37002,7 +37779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 191.262 90)
 			(effects
 				(font
@@ -37021,6 +37798,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 193.04 0)
 			(effects
 				(font
@@ -37134,7 +37920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 117.602 90)
 			(effects
 				(font
@@ -37153,6 +37939,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 119.38 0)
 			(effects
 				(font
@@ -37204,7 +37999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.0852 464.82 0)
 			(effects
 				(font
@@ -37336,7 +38131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 191.262 90)
 			(effects
 				(font
@@ -37355,6 +38150,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 193.04 0)
 			(effects
 				(font
@@ -37475,7 +38279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 299.212 90)
 			(effects
 				(font
@@ -37494,6 +38298,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 300.99 0)
 			(effects
 				(font
@@ -37672,7 +38485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 217.17 90)
 			(effects
 				(font
@@ -37691,6 +38504,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 217.17 0)
 			(effects
 				(font
@@ -37739,7 +38561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 327.66 90)
 			(effects
 				(font
@@ -37758,6 +38580,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 327.66 0)
 			(effects
 				(font
@@ -37806,7 +38637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 254 90)
 			(effects
 				(font
@@ -37825,6 +38656,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 254 0)
 			(effects
 				(font
@@ -38011,7 +38851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 181.61 90)
 			(effects
 				(font
@@ -38030,6 +38870,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 181.61 0)
 			(effects
 				(font
@@ -38150,7 +38999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 464.312 107.95 90)
 			(effects
 				(font
@@ -38169,6 +39018,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 466.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 466.09 107.95 0)
 			(effects
 				(font
@@ -38348,7 +39206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 191.262 90)
 			(effects
 				(font
@@ -38367,6 +39225,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 193.04 0)
 			(effects
 				(font
@@ -38415,7 +39282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 226.822 90)
 			(effects
 				(font
@@ -38434,6 +39301,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 228.6 0)
 			(effects
 				(font
@@ -38550,7 +39426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 464.82 0)
 			(effects
 				(font
@@ -38682,7 +39558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 299.212 90)
 			(effects
 				(font
@@ -38701,6 +39577,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 389.89 300.99 0)
 			(effects
 				(font
@@ -38749,7 +39634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 226.822 90)
 			(effects
 				(font
@@ -38768,6 +39653,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 228.6 0)
 			(effects
 				(font
@@ -38816,7 +39710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 299.212 90)
 			(effects
 				(font
@@ -38835,6 +39729,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 300.99 0)
 			(effects
 				(font
@@ -38948,7 +39851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 327.66 90)
 			(effects
 				(font
@@ -38967,6 +39870,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 327.66 0)
 			(effects
 				(font
@@ -39080,7 +39992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 310.642 181.61 90)
 			(effects
 				(font
@@ -39099,6 +40011,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 312.42 181.61 0)
 			(effects
 				(font
@@ -39480,7 +40401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 341.122 289.56 90)
 			(effects
 				(font
@@ -39499,6 +40420,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 342.9 289.56 0)
 			(effects
 				(font
@@ -39547,7 +40477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 280.162 181.61 90)
 			(effects
 				(font
@@ -39566,6 +40496,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 281.94 181.61 0)
 			(effects
 				(font
@@ -39686,7 +40625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 371.602 143.51 90)
 			(effects
 				(font
@@ -39705,6 +40644,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 373.38 143.51 0)
 			(effects
 				(font
@@ -39753,7 +40701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.12 337.312 90)
 			(effects
 				(font
@@ -39772,6 +40720,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 452.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 452.12 339.09 0)
 			(effects
 				(font
@@ -39820,7 +40777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 80.772 90)
 			(effects
 				(font
@@ -39839,6 +40796,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 82.55 0)
 			(effects
 				(font
@@ -40024,7 +40990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 299.212 90)
 			(effects
 				(font
@@ -40043,6 +41009,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 300.99 0)
 			(effects
 				(font
@@ -40091,7 +41066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 337.312 90)
 			(effects
 				(font
@@ -40110,6 +41085,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 339.09 0)
 			(effects
 				(font
@@ -40302,7 +41286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 71.12 90)
 			(effects
 				(font
@@ -40321,6 +41305,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -40435,7 +41428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 349.758 90)
 			(effects
 				(font
@@ -40454,6 +41447,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 172.72 347.98 0)
 			(effects
 				(font
@@ -40502,7 +41504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 80.772 90)
 			(effects
 				(font
@@ -40521,6 +41523,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 82.55 0)
 			(effects
 				(font
@@ -40767,7 +41778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
 			(at 133.35 374.65 0)
 			(effects
 				(font
@@ -40840,7 +41851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 359.41 191.262 90)
 			(effects
 				(font
@@ -40859,6 +41870,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 359.41 193.04 0)
 			(effects
 				(font
@@ -41040,7 +42060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 135.89 340.36 0)
 			(effects
 				(font
@@ -41309,7 +42329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.49 299.212 90)
 			(effects
 				(font
@@ -41328,6 +42348,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 237.49 300.99 0)
 			(effects
 				(font
@@ -41579,7 +42608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 421.64 337.312 90)
 			(effects
 				(font
@@ -41598,6 +42627,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 421.64 339.09 0)
 			(effects
 				(font
@@ -41718,7 +42756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 263.652 90)
 			(effects
 				(font
@@ -41737,6 +42775,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.97 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 267.97 265.43 0)
 			(effects
 				(font
@@ -41785,7 +42832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 217.17 90)
 			(effects
 				(font
@@ -41804,6 +42851,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17556"
 			(at 251.46 217.17 0)
 			(effects
 				(font
@@ -42095,6 +43151,262 @@
 		)
 	)
 	(symbol
+		(lib_id "IGG1:IGG1-64")
+		(at 556.26 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab2ce5a-ce22-46e8-842f-24d7037e4e29")
+		(property "Reference" "U12"
+			(at 561.34 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 561.34 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IGG1:IGG1"
+			(at 556.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 556.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "7e839b12-4ff5-4ae1-acc7-f01fb2964e97")
+		)
+		(pin "52"
+			(uuid "20ec91a5-7a12-4a2e-bf03-a21083927da9")
+		)
+		(pin "21"
+			(uuid "b7cdd99b-120c-47e5-9cba-5864c9735b58")
+		)
+		(pin "23"
+			(uuid "30c68d0a-1866-4060-9c95-92e6d1f43563")
+		)
+		(pin "19"
+			(uuid "304a8073-b5e9-4244-b10b-f8d2d5689bf1")
+		)
+		(pin "27"
+			(uuid "5671af6c-3386-4411-bbd3-029c349ff4b9")
+		)
+		(pin "35"
+			(uuid "b3f06c9a-ced9-4f27-9cbe-6ff300661b6d")
+		)
+		(pin "15"
+			(uuid "a86e3801-a844-4415-a4dc-fb9d731e533c")
+		)
+		(pin "18"
+			(uuid "b21cffd9-b06d-4159-bdb5-9b70e6d78b10")
+		)
+		(pin "39"
+			(uuid "6cb0f167-4687-4945-b147-7aa2860d6b27")
+		)
+		(pin "4"
+			(uuid "201b88e3-3256-4db7-9ed7-b0ccfc4f7e47")
+		)
+		(pin "53"
+			(uuid "374776a4-97e0-4d4e-b231-019d16acbf3c")
+		)
+		(pin "11"
+			(uuid "dba8c97e-2e04-4511-bc93-5c9e92cdddff")
+		)
+		(pin "58"
+			(uuid "4c335e18-f759-48e7-960b-cf28aa10259c")
+		)
+		(pin "1"
+			(uuid "d5919163-d58c-4d5c-b84e-b68fd8cb5ac5")
+		)
+		(pin "20"
+			(uuid "ed1ee846-58f6-4eea-9d6b-999eecd3c2bc")
+		)
+		(pin "41"
+			(uuid "6e74af16-37bf-433b-9f21-d5b62b7ce5fb")
+		)
+		(pin "45"
+			(uuid "2e54bbe0-3706-497d-8db5-47ef1136b2d0")
+		)
+		(pin "46"
+			(uuid "74ffc41e-0e4d-40f8-a71d-ed928fa33dca")
+		)
+		(pin "63"
+			(uuid "1463a1f5-8adb-4e5c-b21a-41612313e049")
+		)
+		(pin "38"
+			(uuid "ed72cf0a-76fe-4218-ad2f-fa2e868cc4f8")
+		)
+		(pin "56"
+			(uuid "489286f9-4626-4122-a82f-5df30f218149")
+		)
+		(pin "10"
+			(uuid "87aa6cba-8ced-4578-9648-b19b2990b0aa")
+		)
+		(pin "62"
+			(uuid "49589c1f-f475-4caa-99cd-3c8f90784512")
+		)
+		(pin "47"
+			(uuid "d865c41b-feb9-4d7f-8bdb-cf50df1ff05c")
+		)
+		(pin "28"
+			(uuid "1c5e0b3e-37bf-4b5b-bdf0-02506c919f9c")
+		)
+		(pin "57"
+			(uuid "5e0b2531-9050-4578-b4ff-d0388701719c")
+		)
+		(pin "7"
+			(uuid "67fc78ce-aca9-4942-a265-1bbe7fd55d15")
+		)
+		(pin "60"
+			(uuid "9639d61f-1b49-4841-8086-5b00790a30bc")
+		)
+		(pin "8"
+			(uuid "03d5adda-c8e9-44f6-98c0-8ded5a0c9452")
+		)
+		(pin "9"
+			(uuid "25bf88ff-f538-42da-8860-369a1da45ea7")
+		)
+		(pin "32"
+			(uuid "97e84359-06d8-4b5c-aea3-036e37d33759")
+		)
+		(pin "48"
+			(uuid "3d6a9bea-9948-4345-a267-dfcf87b0f8f5")
+		)
+		(pin "17"
+			(uuid "0be49a2c-a1c9-4a8f-82ab-2494f6fdf307")
+		)
+		(pin "14"
+			(uuid "fadadad7-60aa-4f35-9159-f36e7f617eb3")
+		)
+		(pin "37"
+			(uuid "563db667-4c18-49d2-999f-60cf6e55e588")
+		)
+		(pin "2"
+			(uuid "9b3988f1-e647-403b-a098-f28bb5d4c0e0")
+		)
+		(pin "33"
+			(uuid "f8fe89d9-df27-48ec-8b3c-2cb9a157fac1")
+		)
+		(pin "42"
+			(uuid "aaf0d86d-2ee7-4bbd-b74a-cea4b66d6c40")
+		)
+		(pin "31"
+			(uuid "784aaf02-41b7-477e-8f76-5e3fa6b81707")
+		)
+		(pin "49"
+			(uuid "51bfb8be-57dc-4fa9-a8bc-bf9e0f206e46")
+		)
+		(pin "12"
+			(uuid "ab7c666b-ce4a-4acc-97a6-34ebddacdf86")
+		)
+		(pin "44"
+			(uuid "18f27a12-d827-48fc-ac77-c3689d31e49c")
+		)
+		(pin "50"
+			(uuid "0d3d8865-11ba-471e-9337-1afbd5ce4089")
+		)
+		(pin "51"
+			(uuid "b8513181-5dc1-4c47-8b76-a4a87912cc71")
+		)
+		(pin "22"
+			(uuid "cd5b3d4e-bda6-4f70-bd88-e7ec40cdc5c6")
+		)
+		(pin "5"
+			(uuid "80cd7413-9bf4-4cf9-a12d-718a8389187a")
+		)
+		(pin "13"
+			(uuid "bf14f47e-ab01-4c7f-b38c-9c1f0b9cbd67")
+		)
+		(pin "26"
+			(uuid "c38e5739-c43e-4b41-a917-1190a73a95fe")
+		)
+		(pin "3"
+			(uuid "384b39bf-e0df-4564-a396-bc016a446503")
+		)
+		(pin "34"
+			(uuid "609ea53c-2ada-4ec6-9b49-4a075bb35dc7")
+		)
+		(pin "54"
+			(uuid "b8f22713-79ee-4bae-bde6-b8a9db497428")
+		)
+		(pin "59"
+			(uuid "70396958-bba5-424e-916f-0879f89b0cbf")
+		)
+		(pin "55"
+			(uuid "bbba5945-698e-4e59-97c2-b4d1532c5b3d")
+		)
+		(pin "6"
+			(uuid "f7511d31-9d11-4cf1-ba31-94ab5ddd6725")
+		)
+		(pin "40"
+			(uuid "1679ffda-4869-4344-8d56-1089a6228990")
+		)
+		(pin "61"
+			(uuid "d148db96-02ee-4f98-b274-af6d541c257b")
+		)
+		(pin "24"
+			(uuid "e324dc13-3ec7-4837-89dc-3e23345ceea7")
+		)
+		(pin "25"
+			(uuid "358897ad-0d4e-4703-a6ae-4b8483488c3c")
+		)
+		(pin "36"
+			(uuid "02201194-e417-4ec4-a43c-061f456aa9bb")
+		)
+		(pin "30"
+			(uuid "d28153e0-d5c1-4353-9c55-9c1cba008143")
+		)
+		(pin "43"
+			(uuid "c4fd2f72-c4ed-4cb0-9c1d-58938f39d7f7")
+		)
+		(pin "64"
+			(uuid "67e9cb84-6282-4699-a1ab-1d4542d711a7")
+		)
+		(pin "16"
+			(uuid "5867a035-e4e3-4248-9888-9245179095f6")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:Q_NPN_BEC")
 		(at 340.36 300.99 0)
 		(unit 1)
@@ -42191,7 +43503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 337.312 90)
 			(effects
 				(font
@@ -42210,6 +43522,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 298.45 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 298.45 339.09 0)
 			(effects
 				(font
