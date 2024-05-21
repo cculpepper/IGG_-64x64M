@@ -14768,7 +14768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 298.45 0)
 			(effects
 				(font
@@ -14787,6 +14787,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 300.99 0)
 			(effects
 				(font
@@ -15048,7 +15057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 262.89 0)
 			(effects
 				(font
@@ -15067,6 +15076,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 265.43 0)
 			(effects
 				(font
@@ -15630,7 +15648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 190.5 0)
 			(effects
 				(font
@@ -15649,6 +15667,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 193.04 0)
 			(effects
 				(font
@@ -15909,7 +15936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 152.4 0)
 			(effects
 				(font
@@ -15928,6 +15955,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 154.94 0)
 			(effects
 				(font
@@ -16263,7 +16299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 298.45 0)
 			(effects
 				(font
@@ -16282,6 +16318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 300.99 0)
 			(effects
 				(font
@@ -16487,7 +16532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 336.55 0)
 			(effects
 				(font
@@ -16506,6 +16551,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 339.09 0)
 			(effects
 				(font
@@ -16559,7 +16613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 190.5 0)
 			(effects
 				(font
@@ -16578,6 +16632,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 193.04 0)
 			(effects
 				(font
@@ -16631,7 +16694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 116.84 0)
 			(effects
 				(font
@@ -16650,6 +16713,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 119.38 0)
 			(effects
 				(font
@@ -16703,7 +16775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 298.45 0)
 			(effects
 				(font
@@ -16722,6 +16794,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 300.99 0)
 			(effects
 				(font
@@ -16775,7 +16856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 80.01 0)
 			(effects
 				(font
@@ -16794,6 +16875,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 82.55 0)
 			(effects
 				(font
@@ -16847,7 +16937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 262.89 0)
 			(effects
 				(font
@@ -16866,6 +16956,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 265.43 0)
 			(effects
 				(font
@@ -20407,6 +20506,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 212.09 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b238881-c935-4b42-a0d7-7099d03a42bb")
 		)
@@ -20515,7 +20623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 152.4 0)
 			(effects
 				(font
@@ -20534,6 +20642,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 154.94 0)
 			(effects
 				(font
@@ -20652,7 +20769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 116.84 0)
 			(effects
 				(font
@@ -20671,6 +20788,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 119.38 0)
 			(effects
 				(font
@@ -21277,7 +21403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 336.55 0)
 			(effects
 				(font
@@ -21296,6 +21422,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 339.09 0)
 			(effects
 				(font
@@ -21772,7 +21907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 262.89 0)
 			(effects
 				(font
@@ -21791,6 +21926,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 265.43 0)
 			(effects
 				(font
@@ -21844,7 +21988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 298.45 0)
 			(effects
 				(font
@@ -21863,6 +22007,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 300.99 0)
 			(effects
 				(font
@@ -22123,7 +22276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 190.5 0)
 			(effects
 				(font
@@ -22142,6 +22295,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -22195,7 +22357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 262.89 0)
 			(effects
 				(font
@@ -22214,6 +22376,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 265.43 0)
 			(effects
 				(font
@@ -22360,6 +22531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 198.12 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6820f0a8-17d6-465d-a414-708c29449228")
 		)
@@ -22422,6 +22602,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 185.42 483.87 0)
 			(effects
 				(font
@@ -22538,7 +22727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 226.06 0)
 			(effects
 				(font
@@ -22557,6 +22746,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 228.6 0)
 			(effects
 				(font
@@ -22610,7 +22808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 190.5 0)
 			(effects
 				(font
@@ -22629,6 +22827,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 193.04 0)
 			(effects
 				(font
@@ -22682,7 +22889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 152.4 0)
 			(effects
 				(font
@@ -22701,6 +22908,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 154.94 0)
 			(effects
 				(font
@@ -23787,7 +24003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 226.06 0)
 			(effects
 				(font
@@ -23806,6 +24022,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 228.6 0)
 			(effects
 				(font
@@ -24414,7 +24639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 152.4 0)
 			(effects
 				(font
@@ -24433,6 +24658,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 154.94 0)
 			(effects
 				(font
@@ -24616,7 +24850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 262.89 0)
 			(effects
 				(font
@@ -24635,6 +24869,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 265.43 0)
 			(effects
 				(font
@@ -24883,7 +25126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 116.84 0)
 			(effects
 				(font
@@ -24902,6 +25145,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 119.38 0)
 			(effects
 				(font
@@ -25096,7 +25348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 116.84 0)
 			(effects
 				(font
@@ -25115,6 +25367,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 119.38 0)
 			(effects
 				(font
@@ -26237,7 +26498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 262.89 0)
 			(effects
 				(font
@@ -26256,6 +26517,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 265.43 0)
 			(effects
 				(font
@@ -26385,7 +26655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 336.55 0)
 			(effects
 				(font
@@ -26404,6 +26674,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 339.09 0)
 			(effects
 				(font
@@ -26553,6 +26832,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 157.48 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 157.48 483.87 0)
 			(effects
 				(font
@@ -26744,7 +27032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 80.01 0)
 			(effects
 				(font
@@ -26763,6 +27051,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 82.55 0)
 			(effects
 				(font
@@ -26901,6 +27198,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 212.09 483.87 0)
 			(effects
 				(font
@@ -27440,7 +27746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 116.84 0)
 			(effects
 				(font
@@ -27459,6 +27765,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 119.38 0)
 			(effects
 				(font
@@ -28360,7 +28675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 116.84 0)
 			(effects
 				(font
@@ -28379,6 +28694,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 119.38 0)
 			(effects
 				(font
@@ -28509,7 +28833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 336.55 0)
 			(effects
 				(font
@@ -28528,6 +28852,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 339.09 0)
 			(effects
 				(font
@@ -28788,7 +29121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 80.01 0)
 			(effects
 				(font
@@ -28807,6 +29140,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 82.55 0)
 			(effects
 				(font
@@ -28860,7 +29202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 298.45 0)
 			(effects
 				(font
@@ -28879,6 +29221,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 300.99 0)
 			(effects
 				(font
@@ -29627,6 +29978,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 157.48 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a246ee4e-3dcf-4a79-873a-2a0e7e444f98")
 		)
@@ -29897,7 +30257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 262.89 0)
 			(effects
 				(font
@@ -29916,6 +30276,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 265.43 0)
 			(effects
 				(font
@@ -29969,7 +30338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 80.01 0)
 			(effects
 				(font
@@ -29988,6 +30357,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 82.55 0)
 			(effects
 				(font
@@ -30715,7 +31093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 226.06 0)
 			(effects
 				(font
@@ -30734,6 +31112,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 228.6 0)
 			(effects
 				(font
@@ -30863,7 +31250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 152.4 0)
 			(effects
 				(font
@@ -30882,6 +31269,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 154.94 0)
 			(effects
 				(font
@@ -31011,7 +31407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 152.4 0)
 			(effects
 				(font
@@ -31030,6 +31426,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 154.94 0)
 			(effects
 				(font
@@ -31409,7 +31814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 190.5 0)
 			(effects
 				(font
@@ -31428,6 +31833,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 193.04 0)
 			(effects
 				(font
@@ -31481,7 +31895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 336.55 0)
 			(effects
 				(font
@@ -31500,6 +31914,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 339.09 0)
 			(effects
 				(font
@@ -31571,6 +31994,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 180.34 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 180.34 347.98 0)
 			(effects
 				(font
@@ -32310,7 +32742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 262.89 0)
 			(effects
 				(font
@@ -32329,6 +32761,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 265.43 0)
 			(effects
 				(font
@@ -32449,7 +32890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 190.5 0)
 			(effects
 				(font
@@ -32468,6 +32909,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 193.04 0)
 			(effects
 				(font
@@ -32521,7 +32971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 190.5 0)
 			(effects
 				(font
@@ -32540,6 +32990,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 193.04 0)
 			(effects
 				(font
@@ -33045,6 +33504,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 171.45 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5270a22b-1fcc-4d28-aad5-0310ee7931c1")
 		)
@@ -33087,7 +33555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 336.55 0)
 			(effects
 				(font
@@ -33106,6 +33574,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 339.09 0)
 			(effects
 				(font
@@ -33463,7 +33940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 226.06 0)
 			(effects
 				(font
@@ -33482,6 +33959,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 228.6 0)
 			(effects
 				(font
@@ -34361,6 +34847,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 171.45 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7daaacfe-ced0-440a-a22c-ccdb541802af")
 		)
@@ -34826,7 +35321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 298.45 0)
 			(effects
 				(font
@@ -34845,6 +35340,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 300.99 0)
 			(effects
 				(font
@@ -35460,6 +35964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C72038"
+			(at 180.34 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bcf4c59-fa00-4d3e-b17d-cbc5bc94cc1b")
 		)
@@ -35578,7 +36091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 80.01 0)
 			(effects
 				(font
@@ -35597,6 +36110,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 82.55 0)
 			(effects
 				(font
@@ -36457,7 +36979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 190.5 0)
 			(effects
 				(font
@@ -36476,6 +36998,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 193.04 0)
 			(effects
 				(font
@@ -36605,7 +37136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 116.84 0)
 			(effects
 				(font
@@ -36624,6 +37155,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 119.38 0)
 			(effects
 				(font
@@ -36959,7 +37499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 80.01 0)
 			(effects
 				(font
@@ -36978,6 +37518,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -38026,6 +38575,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 198.12 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad5b4a77-e6c2-4b67-a726-f9e4098a8a40")
 		)
@@ -38209,7 +38767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 116.84 0)
 			(effects
 				(font
@@ -38228,6 +38786,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 119.38 0)
 			(effects
 				(font
@@ -38715,7 +39282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 152.4 0)
 			(effects
 				(font
@@ -38734,6 +39301,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 154.94 0)
 			(effects
 				(font
@@ -38929,7 +39505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 438.15 298.45 0)
 			(effects
 				(font
@@ -38948,6 +39524,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 433.07 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 433.07 300.99 0)
 			(effects
 				(font
@@ -39445,6 +40030,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 185.42 461.01 0)
 			(effects
 				(font
@@ -40331,7 +40925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 336.55 0)
 			(effects
 				(font
@@ -40350,6 +40944,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 339.09 0)
 			(effects
 				(font
@@ -40555,7 +41158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 80.01 0)
 			(effects
 				(font
@@ -40574,6 +41177,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 82.55 0)
 			(effects
 				(font
@@ -40855,7 +41467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 336.55 0)
 			(effects
 				(font
@@ -40874,6 +41486,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 248.92 339.09 0)
 			(effects
 				(font
@@ -41144,7 +41765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 80.01 0)
 			(effects
 				(font
@@ -41163,6 +41784,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 82.55 0)
 			(effects
 				(font
@@ -41216,7 +41846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 284.48 226.06 0)
 			(effects
 				(font
@@ -41235,6 +41865,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 279.4 228.6 0)
 			(effects
 				(font
@@ -42259,7 +42898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 468.63 226.06 0)
 			(effects
 				(font
@@ -42278,6 +42917,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 463.55 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 463.55 228.6 0)
 			(effects
 				(font
@@ -42407,7 +43055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 314.96 226.06 0)
 			(effects
 				(font
@@ -42426,6 +43074,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 309.88 228.6 0)
 			(effects
 				(font
@@ -42686,7 +43343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 406.4 152.4 0)
 			(effects
 				(font
@@ -42705,6 +43362,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 401.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 401.32 154.94 0)
 			(effects
 				(font
@@ -43040,7 +43706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 375.92 226.06 0)
 			(effects
 				(font
@@ -43059,6 +43725,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 370.84 228.6 0)
 			(effects
 				(font
@@ -43433,7 +44108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 345.44 298.45 0)
 			(effects
 				(font
@@ -43452,6 +44127,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151355"
 			(at 340.36 300.99 0)
 			(effects
 				(font
