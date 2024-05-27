@@ -12648,7 +12648,7 @@
 		)
 		(uuid "8857bd4c-a99f-4b9e-904d-ff63037d3504")
 	)
-	(label "OUT_K48"
+	(label "OUT_K47"
 		(at 476.25 259.08 180)
 		(fields_autoplaced yes)
 		(effects
