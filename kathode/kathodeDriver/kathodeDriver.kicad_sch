@@ -4288,6 +4288,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -11966,7 +12048,7 @@
 		)
 		(uuid "3f33c314-e3e2-4e57-b9c5-d11e95792a8e")
 	)
-	(label "uK46"
+	(label "K46"
 		(at 415.29 265.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13736,6 +13818,17 @@
 			(justify right bottom)
 		)
 		(uuid "d841c0f5-d9c6-4b70-a0df-c20d02f29f5e")
+	)
+	(label "CLK"
+		(at 450.85 431.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d94286b5-b3bc-414c-bdf3-b5187cd9e1c3")
 	)
 	(label "OUT_K43"
 		(at 553.72 163.83 180)
@@ -17189,7 +17282,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4081")
-		(at 401.32 429.26 0)
+		(at 463.55 429.26 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17198,7 +17291,7 @@
 		(fields_autoplaced yes)
 		(uuid "159b2317-3e9f-4050-a84b-1fe4158ef870")
 		(property "Reference" "U3"
-			(at 401.3117 420.37 0)
+			(at 463.5417 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17206,7 +17299,7 @@
 			)
 		)
 		(property "Value" "4081"
-			(at 401.3117 422.91 0)
+			(at 463.5417 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17214,7 +17307,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 401.32 429.26 0)
+			(at 463.55 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17223,7 +17316,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 401.32 429.26 0)
+			(at 463.55 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,7 +17325,7 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
-			(at 401.32 429.26 0)
+			(at 463.55 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17241,7 +17334,7 @@
 			)
 		)
 		(property "LCSC" "C148318"
-			(at 401.32 429.26 0)
+			(at 463.55 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22695,6 +22788,72 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 146.05 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f4312a4-d61d-4716-ab7c-a091c2003cf4")
+		(property "Reference" "#PWR0180"
+			(at 146.05 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 146.05 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 146.05 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617793fa-cd4e-4d84-8b94-7eb76b66c81c")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -32945,6 +33104,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 575.31 278.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f60713b-8128-45c1-a8cb-737b7e5048ef")
+		(property "Reference" "H2"
+			(at 577.85 276.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 577.85 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H2mm_9774020360"
+			(at 575.31 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 575.31 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:Q_NPN_BEC")
 		(at 433.07 193.04 0)
 		(unit 1)
@@ -34872,6 +35095,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 575.31 273.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aff3e38d-c3e0-426d-a61c-a073fc22cc8b")
+		(property "Reference" "H1"
+			(at 577.85 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 577.85 274.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H2mm_9774020360"
+			(at 575.31 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 575.31 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:R")
 		(at 359.41 154.94 270)
 		(unit 1)
@@ -36689,7 +36976,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4081")
-		(at 463.55 429.26 0)
+		(at 401.32 429.26 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36698,7 +36985,7 @@
 		(fields_autoplaced yes)
 		(uuid "bff36ebb-4252-417d-a2a5-9b57ac70f607")
 		(property "Reference" "U3"
-			(at 463.5417 420.37 0)
+			(at 401.3117 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36706,7 +36993,7 @@
 			)
 		)
 		(property "Value" "4081"
-			(at 463.5417 422.91 0)
+			(at 401.3117 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36714,7 +37001,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 463.55 429.26 0)
+			(at 401.32 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36723,7 +37010,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 463.55 429.26 0)
+			(at 401.32 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36732,7 +37019,7 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
-			(at 463.55 429.26 0)
+			(at 401.32 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36741,7 +37028,7 @@
 			)
 		)
 		(property "LCSC" "C148318"
-			(at 463.55 429.26 0)
+			(at 401.32 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37743,6 +38030,72 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 464.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76978b2-8fca-4844-b8c2-dba704688b46")
+		(property "Reference" "#PWR0181"
+			(at 146.05 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eca2e5b-a404-44a7-961a-2e3408be01f5")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -44157,6 +44510,85 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc77a980-f466-4d5f-81af-f79a52393c49")
+		(property "Reference" "C11"
+			(at 149.86 459.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 149.86 462.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.0152 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 146.05 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f4ce7f6-443c-498c-ae10-b6cfc3b16a0b")
+		)
+		(pin "2"
+			(uuid "6978c759-dcd0-4b84-89d9-cc184167d0fb")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "C11")
 					(unit 1)
 				)
 			)
