@@ -1838,21 +1838,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "Conn_01x05"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1878,7 +1878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1905,7 +1905,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x05_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -1951,7 +1951,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -1962,7 +1973,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1980,7 +1991,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1998,7 +2009,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2016,7 +2027,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2026,6 +2037,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4288,6 +4317,260 @@
 				)
 			)
 		)
+		(symbol "LED:SK6812"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -5072,6 +5355,16 @@
 			(type default)
 		)
 		(uuid "0283c455-a409-4d25-b5e7-3e8da838c303")
+	)
+	(wire
+		(pts
+			(xy 24.13 228.6) (xy 35.56 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02922135-bbc5-48c5-b6db-05108c8a3e20")
 	)
 	(wire
 		(pts
@@ -6682,16 +6975,6 @@
 			(type default)
 		)
 		(uuid "4808ee69-50bf-4faa-a157-13996e8fc50e")
-	)
-	(wire
-		(pts
-			(xy 128.27 372.11) (xy 125.73 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48da1aea-95f2-44b8-b1f7-7c0ecd2953d7")
 	)
 	(wire
 		(pts
@@ -8445,6 +8728,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 369.57) (xy 128.27 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d44c27-167f-4156-a900-308eaa4705cb")
+	)
+	(wire
+		(pts
 			(xy 373.38 259.08) (xy 373.38 260.35)
 		)
 		(stroke
@@ -8572,6 +8865,16 @@
 			(type default)
 		)
 		(uuid "8b65ec8f-6786-47f7-a951-e370835119d0")
+	)
+	(wire
+		(pts
+			(xy 113.03 372.11) (xy 128.27 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc0d90b-da1a-42dd-9376-20ad525df915")
 	)
 	(wire
 		(pts
@@ -10535,7 +10838,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 372.11) (xy 125.73 369.57)
+			(xy 125.73 369.57) (xy 125.73 367.03)
 		)
 		(stroke
 			(width 0)
@@ -11728,6 +12031,17 @@
 			(justify right bottom)
 		)
 		(uuid "21968d9e-322d-44e9-9a4e-e910b613c3c7")
+	)
+	(label "ADDR_LED"
+		(at 24.13 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d86d04-37c4-469b-9398-c3a72b63f6d6")
 	)
 	(label "K3"
 		(at 322.58 82.55 0)
@@ -13742,6 +14056,17 @@
 		)
 		(uuid "d1c7279d-07c5-45b1-a62a-fe81b89bbe29")
 	)
+	(label "ADDR_LED"
+		(at 113.03 372.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22c3b7a-c6b3-44e8-bba3-0c4413e62b3b")
+	)
 	(label "OUT_K7"
 		(at 553.72 72.39 180)
 		(fields_autoplaced yes)
@@ -14280,6 +14605,72 @@
 			(justify left bottom)
 		)
 		(uuid "ff53ccac-f372-4547-90bb-5a9813b7043a")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 58.42 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0037524d-15a3-486f-93dc-8bc7f5a611e7")
+		(property "Reference" "#PWR0184"
+			(at 58.42 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 58.42 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 58.42 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4319150-93a1-45d2-8618-a630c1cadf7e")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:R")
@@ -14888,7 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 300.99 0)
 			(effects
 				(font
@@ -15177,7 +15568,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 265.43 0)
 			(effects
 				(font
@@ -15768,7 +16159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 193.04 0)
 			(effects
 				(font
@@ -16056,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 154.94 0)
 			(effects
 				(font
@@ -16419,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 300.99 0)
 			(effects
 				(font
@@ -16652,7 +17043,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 339.09 0)
 			(effects
 				(font
@@ -16733,7 +17124,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 193.04 0)
 			(effects
 				(font
@@ -16814,7 +17205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 119.38 0)
 			(effects
 				(font
@@ -16895,7 +17286,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 300.99 0)
 			(effects
 				(font
@@ -16976,7 +17367,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 82.55 0)
 			(effects
 				(font
@@ -17057,7 +17448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 265.43 0)
 			(effects
 				(font
@@ -17670,6 +18061,72 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.66 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172656eb-7b1c-4c71-b619-b8e569549ce9")
+		(property "Reference" "#PWR0186"
+			(at 73.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 73.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 73.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e94a2c4-c245-485b-8beb-c70d50c48647")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -19401,6 +19858,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fa2f95c-8f17-4ea7-b455-86149bd56890")
+		(property "Reference" "#PWR0183"
+			(at 43.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51c172bd-17fa-4aeb-a7ab-afea8c4b25b8")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 464.82 0)
 		(unit 1)
@@ -19598,6 +20121,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812")
+		(at 73.66 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "243293f9-93f7-42ea-a4bd-ea086937b5c7")
+		(property "Reference" "D5"
+			(at 83.82 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 83.82 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 74.93 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 76.2 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "da3ff97d-635d-41c4-a3de-c9dd125e9462")
+		)
+		(pin "3"
+			(uuid "6cd5ea73-618b-40c5-b704-05d6fa76f450")
+		)
+		(pin "1"
+			(uuid "5f47f303-4f0e-4eaa-ae4b-ee83cdcfdfb7")
+		)
+		(pin "2"
+			(uuid "a1137ec8-4724-4f73-9ee7-6b8abd422d8e")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:HT")
 		(at 435.61 283.21 0)
 		(unit 1)
@@ -19788,6 +20387,82 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 88.9 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2623d4ea-0687-47d9-83c6-07ddc35b904e")
+		(property "Reference" "D6"
+			(at 99.06 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 99.06 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 91.44 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c21f6106-4ad6-422c-993f-289c9adef44a")
+		)
+		(pin "3"
+			(uuid "e705ae58-456b-4634-b411-49808a47107b")
+		)
+		(pin "1"
+			(uuid "edecbad6-3830-4905-9460-3db2e5eab999")
+		)
+		(pin "2"
+			(uuid "376b6866-baf9-4333-84bd-783a2010e879")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -20480,7 +21155,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 125.73 369.57 0)
+		(at 125.73 367.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20489,7 +21164,7 @@
 		(fields_autoplaced yes)
 		(uuid "29aec695-b1fd-4129-955b-91ede1389073")
 		(property "Reference" "#PWR01"
-			(at 125.73 373.38 0)
+			(at 125.73 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20498,7 +21173,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 125.73 364.49 0)
+			(at 125.73 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20506,7 +21181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 369.57 0)
+			(at 125.73 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20515,7 +21190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 369.57 0)
+			(at 125.73 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20524,7 +21199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 125.73 369.57 0)
+			(at 125.73 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20743,7 +21418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 154.94 0)
 			(effects
 				(font
@@ -20889,7 +21564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 119.38 0)
 			(effects
 				(font
@@ -21523,7 +22198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 339.09 0)
 			(effects
 				(font
@@ -22027,7 +22702,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 265.43 0)
 			(effects
 				(font
@@ -22049,6 +22724,71 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "Q62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 73.66 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "376c1117-7564-499a-a063-511e32601d8e")
+		(property "Reference" "#PWR0187"
+			(at 73.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b1e6f30-41ac-48b8-97f7-32a48fd80083")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -22108,7 +22848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 300.99 0)
 			(effects
 				(font
@@ -22396,7 +23136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -22477,7 +23217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 265.43 0)
 			(effects
 				(font
@@ -22913,7 +23653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 228.6 0)
 			(effects
 				(font
@@ -22994,7 +23734,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 193.04 0)
 			(effects
 				(font
@@ -23075,7 +23815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 154.94 0)
 			(effects
 				(font
@@ -23713,6 +24453,72 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 88.9 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d280bed-6378-4977-942d-72aafa30accb")
+		(property "Reference" "#PWR0188"
+			(at 88.9 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 88.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 88.9 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e8d52c-5998-410c-9d83-5df158e0eb4d")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 679.45 387.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24189,7 +24995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 228.6 0)
 			(effects
 				(font
@@ -24825,7 +25631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 154.94 0)
 			(effects
 				(font
@@ -25036,7 +25842,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 265.43 0)
 			(effects
 				(font
@@ -25312,7 +26118,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 119.38 0)
 			(effects
 				(font
@@ -25534,7 +26340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 119.38 0)
 			(effects
 				(font
@@ -26684,7 +27490,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 265.43 0)
 			(effects
 				(font
@@ -26841,7 +27647,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 339.09 0)
 			(effects
 				(font
@@ -27218,7 +28024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 82.55 0)
 			(effects
 				(font
@@ -27586,6 +28392,71 @@
 		)
 	)
 	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 88.9 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c0ed77-c383-41e4-9ed9-b4410d7b37ee")
+		(property "Reference" "#PWR0189"
+			(at 88.9 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0eb9da-6762-4f2e-9f61-79231691d161")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:R")
 		(at 342.9 327.66 0)
 		(unit 1)
@@ -27932,7 +28803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 119.38 0)
 			(effects
 				(font
@@ -28861,7 +29732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 119.38 0)
 			(effects
 				(font
@@ -28883,6 +29754,82 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "Q42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 104.14 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ef74a5-c358-4517-80be-21ebb37b6f91")
+		(property "Reference" "D7"
+			(at 114.3 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 114.3 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 105.41 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 106.68 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 104.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "662f9214-20a4-401e-b65e-149ac3322302")
+		)
+		(pin "3"
+			(uuid "4c00b10e-4a75-41dd-a078-b3924ef21481")
+		)
+		(pin "1"
+			(uuid "fb521726-363d-43e3-a55b-b7be4a6c61cb")
+		)
+		(pin "2"
+			(uuid "d8ebcc39-0a1b-4e77-8f0b-d8bdc23a373a")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -29019,7 +29966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 339.09 0)
 			(effects
 				(font
@@ -29307,7 +30254,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 82.55 0)
 			(effects
 				(font
@@ -29388,7 +30335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 300.99 0)
 			(effects
 				(font
@@ -30443,7 +31390,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 265.43 0)
 			(effects
 				(font
@@ -30524,7 +31471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 82.55 0)
 			(effects
 				(font
@@ -30828,6 +31775,82 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 119.38 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897d56ba-f7ff-4e12-826a-707ee6a40743")
+		(property "Reference" "D8"
+			(at 129.54 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 129.54 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 120.65 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 121.92 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 119.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b0e7cfa1-9be5-4a70-aebf-40c245967c57")
+		)
+		(pin "3"
+			(uuid "a303b55b-c8ff-4be9-a208-41bdcba0ae4b")
+		)
+		(pin "1"
+			(uuid "7bf67cba-e186-4063-8256-a371c77e16a8")
+		)
+		(pin "2"
+			(uuid "39a37ffa-b681-4366-8591-f297c54ff6aa")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -31279,7 +32302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 228.6 0)
 			(effects
 				(font
@@ -31436,7 +32459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 154.94 0)
 			(effects
 				(font
@@ -31593,7 +32616,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 154.94 0)
 			(effects
 				(font
@@ -32000,7 +33023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 193.04 0)
 			(effects
 				(font
@@ -32081,7 +33104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 339.09 0)
 			(effects
 				(font
@@ -32246,6 +33269,71 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 43.18 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9777ec73-8a19-4b2b-95c8-c89be1bec114")
+		(property "Reference" "#PWR0182"
+			(at 43.18 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "652b8f16-d6e2-4621-8e30-94c5851180bd")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -32668,6 +33756,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 119.38 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bec2d29-85e8-4b11-98d5-546854314fb0")
+		(property "Reference" "#PWR0192"
+			(at 119.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 119.38 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 119.38 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b325f0-6895-4d75-ba2a-f265f07a69ee")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:R")
 		(at 328.93 300.99 270)
 		(unit 1)
@@ -32928,7 +34082,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 265.43 0)
 			(effects
 				(font
@@ -33076,7 +34230,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 193.04 0)
 			(effects
 				(font
@@ -33221,7 +34375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 193.04 0)
 			(effects
 				(font
@@ -33805,7 +34959,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 339.09 0)
 			(effects
 				(font
@@ -34190,7 +35344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 228.6 0)
 			(effects
 				(font
@@ -35635,7 +36789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 300.99 0)
 			(effects
 				(font
@@ -35722,6 +36876,82 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 58.42 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3db2536-af9c-42d7-b918-c6356e3acf5c")
+		(property "Reference" "D4"
+			(at 68.58 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 68.58 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 59.69 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 60.96 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 58.42 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f27b05b5-d01a-4f10-9a30-a32b1debbfc2")
+		)
+		(pin "3"
+			(uuid "17963928-16ec-4de0-9063-f63d14ed12d8")
+		)
+		(pin "1"
+			(uuid "11e982df-a45d-49a6-b83c-cdceab08261b")
+		)
+		(pin "2"
+			(uuid "e3b8b0c2-07c5-4106-97f1-984843bab063")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -36405,7 +37635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 82.55 0)
 			(effects
 				(font
@@ -36839,6 +38069,82 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 43.18 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1fc174-7493-49b3-b6d0-891d363950f0")
+		(property "Reference" "D3"
+			(at 53.34 222.2814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 53.34 224.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 44.45 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 45.72 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 43.18 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7f7064cf-91ad-4b03-a28e-b16548dbff33")
+		)
+		(pin "3"
+			(uuid "f3dfb686-6cac-4363-9c1a-0744dad14c59")
+		)
+		(pin "1"
+			(uuid "f07fbf8d-e971-45b6-8572-7359d592f233")
+		)
+		(pin "2"
+			(uuid "62edc8c8-ba9f-4330-b1d2-4138514fa6be")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -37293,7 +38599,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 193.04 0)
 			(effects
 				(font
@@ -37450,7 +38756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 119.38 0)
 			(effects
 				(font
@@ -37472,6 +38778,71 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 119.38 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d1c48b-5c3b-440d-a8df-e0216a29a376")
+		(property "Reference" "#PWR0193"
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e17a5b8-ed3a-4be4-a43d-f3915a757015")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -37813,7 +39184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -38368,6 +39739,71 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 58.42 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca55b3d4-275c-4290-93a4-7e4e89b8a0af")
+		(property "Reference" "#PWR0185"
+			(at 58.42 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a309532-a46b-459a-9a20-3e313dfb919c")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -39147,7 +40583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 119.38 0)
 			(effects
 				(font
@@ -39662,7 +41098,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 154.94 0)
 			(effects
 				(font
@@ -39885,7 +41321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 433.07 300.99 0)
 			(effects
 				(font
@@ -40850,6 +42286,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 104.14 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf115db-f122-4258-a518-6f9f97fa82a2")
+		(property "Reference" "#PWR0190"
+			(at 104.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 104.14 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c0e5ec-26ad-462f-9a33-95c133fe5230")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IGG1_OctoDriver-rescue:HT")
 		(at 403.86 210.82 0)
 		(unit 1)
@@ -41305,7 +42807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 339.09 0)
 			(effects
 				(font
@@ -41538,7 +43040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 82.55 0)
 			(effects
 				(font
@@ -41847,7 +43349,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 248.92 339.09 0)
 			(effects
 				(font
@@ -42145,7 +43647,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 82.55 0)
 			(effects
 				(font
@@ -42226,7 +43728,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 279.4 228.6 0)
 			(effects
 				(font
@@ -42743,7 +44245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x05")
 		(at 133.35 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42753,7 +44255,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecae6b6d-850e-49d5-8277-7eebdaa53f59")
 		(property "Reference" "J1"
-			(at 135.89 374.6499 0)
+			(at 135.89 373.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42761,8 +44263,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 135.89 377.1899 0)
+		(property "Value" "Conn_01x05"
+			(at 135.89 375.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42770,7 +44272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x05_P2.50mm_Vertical"
 			(at 133.35 374.65 0)
 			(effects
 				(font
@@ -42788,7 +44290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 133.35 374.65 0)
 			(effects
 				(font
@@ -42808,6 +44310,9 @@
 		)
 		(pin "3"
 			(uuid "5dc4ec0b-29d4-42d9-a2cc-75f558805d46")
+		)
+		(pin "5"
+			(uuid "317519e0-877c-4cb2-8202-b2f115f2a1b8")
 		)
 		(instances
 			(project "kathodeDriver"
@@ -43019,6 +44524,71 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IGG1_OctoDriver-rescue:GND")
+		(at 104.14 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff1ab76-aa77-46bf-8021-fb684c5ab115")
+		(property "Reference" "#PWR0191"
+			(at 104.14 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc55f2b0-a501-43e9-9610-59713965f3e5")
+		)
+		(instances
+			(project "kathodeDriver"
+				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -43278,7 +44848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 463.55 228.6 0)
 			(effects
 				(font
@@ -43435,7 +45005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 309.88 228.6 0)
 			(effects
 				(font
@@ -43723,7 +45293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 401.32 154.94 0)
 			(effects
 				(font
@@ -44086,7 +45656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 370.84 228.6 0)
 			(effects
 				(font
@@ -44488,7 +46058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151355"
+		(property "LCSC" "C20069141"
 			(at 340.36 300.99 0)
 			(effects
 				(font
