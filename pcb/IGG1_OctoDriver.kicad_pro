@@ -6,8 +6,8 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.15,
-        "copper_line_width": 0.3048,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -41,14 +41,14 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -97,8 +97,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -118,19 +118,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3302,
-        "min_track_width": 0.1524,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6858,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.2,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -178,10 +178,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.1524,
-        0.3048,
-        0.635
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -454,19 +451,19 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -476,14 +473,31 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "schematic_color": "rgb(255, 0, 6)",
+        "track_width": 0.2,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 17, 255)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -491,415 +505,344 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/AO1": "HV",
+      "/AO10": "HV",
+      "/AO11": "HV",
+      "/AO12": "HV",
+      "/AO13": "HV",
+      "/AO14": "HV",
+      "/AO15": "HV",
+      "/AO16": "HV",
+      "/AO17": "HV",
+      "/AO18": "HV",
+      "/AO19": "HV",
+      "/AO2": "HV",
+      "/AO20": "HV",
+      "/AO21": "HV",
+      "/AO22": "HV",
+      "/AO23": "HV",
+      "/AO24": "HV",
+      "/AO25": "HV",
+      "/AO26": "HV",
+      "/AO27": "HV",
+      "/AO28": "HV",
+      "/AO29": "HV",
+      "/AO3": "HV",
+      "/AO30": "HV",
+      "/AO31": "HV",
+      "/AO32": "HV",
+      "/AO33": "HV",
+      "/AO34": "HV",
+      "/AO35": "HV",
+      "/AO36": "HV",
+      "/AO37": "HV",
+      "/AO38": "HV",
+      "/AO39": "HV",
+      "/AO4": "HV",
+      "/AO40": "HV",
+      "/AO41": "HV",
+      "/AO42": "HV",
+      "/AO43": "HV",
+      "/AO44": "HV",
+      "/AO45": "HV",
+      "/AO46": "HV",
+      "/AO47": "HV",
+      "/AO48": "HV",
+      "/AO49": "HV",
+      "/AO5": "HV",
+      "/AO50": "HV",
+      "/AO51": "HV",
+      "/AO52": "HV",
+      "/AO53": "HV",
+      "/AO54": "HV",
+      "/AO55": "HV",
+      "/AO56": "HV",
+      "/AO57": "HV",
+      "/AO58": "HV",
+      "/AO59": "HV",
+      "/AO6": "HV",
+      "/AO60": "HV",
+      "/AO61": "HV",
+      "/AO62": "HV",
+      "/AO63": "HV",
+      "/AO64": "HV",
+      "/AO7": "HV",
+      "/AO8": "HV",
+      "/AO9": "HV",
+      "Net-(D10-A)": "HV",
+      "Net-(D10-K)": "HV",
+      "Net-(D100-A)": "HV",
+      "Net-(D100-K)": "HV",
+      "Net-(D101-A)": "HV",
+      "Net-(D101-K)": "HV",
+      "Net-(D102-A)": "HV",
+      "Net-(D102-K)": "HV",
+      "Net-(D103-A)": "HV",
+      "Net-(D103-K)": "HV",
+      "Net-(D104-A)": "HV",
+      "Net-(D104-K)": "HV",
+      "Net-(D105-A)": "HV",
+      "Net-(D105-K)": "HV",
+      "Net-(D106-A)": "HV",
+      "Net-(D106-K)": "HV",
+      "Net-(D107-A)": "HV",
+      "Net-(D107-K)": "HV",
+      "Net-(D108-A)": "HV",
+      "Net-(D108-K)": "HV",
+      "Net-(D109-A)": "HV",
+      "Net-(D109-K)": "HV",
+      "Net-(D11-A)": "HV",
+      "Net-(D11-K)": "HV",
+      "Net-(D110-A)": "HV",
+      "Net-(D110-K)": "HV",
+      "Net-(D111-A)": "HV",
+      "Net-(D111-K)": "HV",
+      "Net-(D112-A)": "HV",
+      "Net-(D112-K)": "HV",
+      "Net-(D113-A)": "HV",
+      "Net-(D113-K)": "HV",
+      "Net-(D114-A)": "HV",
+      "Net-(D114-K)": "HV",
+      "Net-(D115-A)": "HV",
+      "Net-(D115-K)": "HV",
+      "Net-(D116-A)": "HV",
+      "Net-(D116-K)": "HV",
+      "Net-(D117-A)": "HV",
+      "Net-(D117-K)": "HV",
+      "Net-(D118-A)": "HV",
+      "Net-(D118-K)": "HV",
+      "Net-(D119-A)": "HV",
+      "Net-(D119-K)": "HV",
+      "Net-(D12-A)": "HV",
+      "Net-(D12-K)": "HV",
+      "Net-(D120-A)": "HV",
+      "Net-(D120-K)": "HV",
+      "Net-(D121-A)": "HV",
+      "Net-(D121-K)": "HV",
+      "Net-(D122-A)": "HV",
+      "Net-(D122-K)": "HV",
+      "Net-(D123-A)": "HV",
+      "Net-(D123-K)": "HV",
+      "Net-(D124-A)": "HV",
+      "Net-(D124-K)": "HV",
+      "Net-(D125-A)": "HV",
+      "Net-(D125-K)": "HV",
+      "Net-(D126-A)": "HV",
+      "Net-(D126-K)": "HV",
+      "Net-(D127-A)": "HV",
+      "Net-(D127-K)": "HV",
+      "Net-(D128-A)": "HV",
+      "Net-(D128-K)": "HV",
+      "Net-(D129-A)": "HV",
+      "Net-(D129-K)": "HV",
+      "Net-(D13-A)": "HV",
+      "Net-(D13-K)": "HV",
+      "Net-(D130-A)": "HV",
+      "Net-(D130-K)": "HV",
+      "Net-(D131-A)": "HV",
+      "Net-(D131-K)": "HV",
+      "Net-(D132-A)": "HV",
+      "Net-(D132-K)": "HV",
+      "Net-(D133-A)": "HV",
+      "Net-(D133-K)": "HV",
+      "Net-(D134-A)": "HV",
+      "Net-(D134-K)": "HV",
+      "Net-(D135-A)": "HV",
+      "Net-(D135-K)": "HV",
+      "Net-(D136-A)": "HV",
+      "Net-(D136-K)": "HV",
+      "Net-(D14-A)": "HV",
+      "Net-(D14-K)": "HV",
+      "Net-(D15-A)": "HV",
+      "Net-(D15-K)": "HV",
+      "Net-(D16-A)": "HV",
+      "Net-(D16-K)": "HV",
+      "Net-(D17-A)": "HV",
+      "Net-(D17-K)": "HV",
+      "Net-(D18-A)": "HV",
+      "Net-(D18-K)": "HV",
+      "Net-(D19-A)": "HV",
+      "Net-(D19-K)": "HV",
+      "Net-(D20-A)": "HV",
+      "Net-(D20-K)": "HV",
+      "Net-(D21-A)": "HV",
+      "Net-(D21-K)": "HV",
+      "Net-(D22-A)": "HV",
+      "Net-(D22-K)": "HV",
+      "Net-(D23-A)": "HV",
+      "Net-(D23-K)": "HV",
+      "Net-(D24-A)": "HV",
+      "Net-(D24-K)": "HV",
+      "Net-(D25-A)": "HV",
+      "Net-(D25-K)": "HV",
+      "Net-(D26-A)": "HV",
+      "Net-(D26-K)": "HV",
+      "Net-(D27-A)": "HV",
+      "Net-(D27-K)": "HV",
+      "Net-(D28-A)": "HV",
+      "Net-(D28-K)": "HV",
+      "Net-(D29-A)": "HV",
+      "Net-(D29-K)": "HV",
+      "Net-(D30-A)": "HV",
+      "Net-(D30-K)": "HV",
+      "Net-(D31-A)": "HV",
+      "Net-(D31-K)": "HV",
+      "Net-(D32-A)": "HV",
+      "Net-(D32-K)": "HV",
+      "Net-(D33-A)": "HV",
+      "Net-(D33-K)": "HV",
+      "Net-(D34-A)": "HV",
+      "Net-(D34-K)": "HV",
+      "Net-(D35-A)": "HV",
+      "Net-(D35-K)": "HV",
+      "Net-(D36-A)": "HV",
+      "Net-(D36-K)": "HV",
+      "Net-(D37-A)": "HV",
+      "Net-(D37-K)": "HV",
+      "Net-(D38-A)": "HV",
+      "Net-(D38-K)": "HV",
+      "Net-(D39-A)": "HV",
+      "Net-(D39-K)": "HV",
+      "Net-(D40-A)": "HV",
+      "Net-(D40-K)": "HV",
+      "Net-(D41-A)": "HV",
+      "Net-(D41-K)": "HV",
+      "Net-(D42-A)": "HV",
+      "Net-(D42-K)": "HV",
+      "Net-(D43-A)": "HV",
+      "Net-(D43-K)": "HV",
+      "Net-(D44-A)": "HV",
+      "Net-(D44-K)": "HV",
+      "Net-(D45-A)": "HV",
+      "Net-(D45-K)": "HV",
+      "Net-(D46-A)": "HV",
+      "Net-(D46-K)": "HV",
+      "Net-(D47-A)": "HV",
+      "Net-(D47-K)": "HV",
+      "Net-(D48-A)": "HV",
+      "Net-(D48-K)": "HV",
+      "Net-(D49-A)": "HV",
+      "Net-(D49-K)": "HV",
+      "Net-(D50-A)": "HV",
+      "Net-(D50-K)": "HV",
+      "Net-(D51-A)": "HV",
+      "Net-(D51-K)": "HV",
+      "Net-(D52-A)": "HV",
+      "Net-(D52-K)": "HV",
+      "Net-(D53-A)": "HV",
+      "Net-(D53-K)": "HV",
+      "Net-(D54-A)": "HV",
+      "Net-(D54-K)": "HV",
+      "Net-(D55-A)": "HV",
+      "Net-(D55-K)": "HV",
+      "Net-(D56-A)": "HV",
+      "Net-(D56-K)": "HV",
+      "Net-(D57-A)": "HV",
+      "Net-(D57-K)": "HV",
+      "Net-(D58-A)": "HV",
+      "Net-(D58-K)": "HV",
+      "Net-(D59-A)": "HV",
+      "Net-(D59-K)": "HV",
+      "Net-(D60-A)": "HV",
+      "Net-(D60-K)": "HV",
+      "Net-(D61-A)": "HV",
+      "Net-(D61-K)": "HV",
+      "Net-(D62-A)": "HV",
+      "Net-(D62-K)": "HV",
+      "Net-(D63-A)": "HV",
+      "Net-(D63-K)": "HV",
+      "Net-(D64-A)": "HV",
+      "Net-(D64-K)": "HV",
+      "Net-(D65-A)": "HV",
+      "Net-(D65-K)": "HV",
+      "Net-(D66-A)": "HV",
+      "Net-(D66-K)": "HV",
+      "Net-(D67-A)": "HV",
+      "Net-(D67-K)": "HV",
+      "Net-(D68-A)": "HV",
+      "Net-(D68-K)": "HV",
+      "Net-(D69-A)": "HV",
+      "Net-(D69-K)": "HV",
+      "Net-(D70-A)": "HV",
+      "Net-(D70-K)": "HV",
+      "Net-(D71-A)": "HV",
+      "Net-(D71-K)": "HV",
+      "Net-(D72-A)": "HV",
+      "Net-(D72-K)": "HV",
+      "Net-(D73-A)": "HV",
+      "Net-(D73-K)": "HV",
+      "Net-(D74-A)": "HV",
+      "Net-(D74-K)": "HV",
+      "Net-(D75-A)": "HV",
+      "Net-(D75-K)": "HV",
+      "Net-(D76-A)": "HV",
+      "Net-(D76-K)": "HV",
+      "Net-(D77-A)": "HV",
+      "Net-(D77-K)": "HV",
+      "Net-(D78-A)": "HV",
+      "Net-(D78-K)": "HV",
+      "Net-(D79-A)": "HV",
+      "Net-(D79-K)": "HV",
+      "Net-(D80-A)": "HV",
+      "Net-(D80-K)": "HV",
+      "Net-(D81-A)": "HV",
+      "Net-(D81-K)": "HV",
+      "Net-(D82-A)": "HV",
+      "Net-(D82-K)": "HV",
+      "Net-(D83-A)": "HV",
+      "Net-(D83-K)": "HV",
+      "Net-(D84-A)": "HV",
+      "Net-(D84-K)": "HV",
+      "Net-(D85-A)": "HV",
+      "Net-(D85-K)": "HV",
+      "Net-(D86-A)": "HV",
+      "Net-(D86-K)": "HV",
+      "Net-(D87-A)": "HV",
+      "Net-(D87-K)": "HV",
+      "Net-(D88-A)": "HV",
+      "Net-(D88-K)": "HV",
+      "Net-(D89-A)": "HV",
+      "Net-(D89-K)": "HV",
+      "Net-(D9-A)": "HV",
+      "Net-(D9-K)": "HV",
+      "Net-(D90-A)": "HV",
+      "Net-(D90-K)": "HV",
+      "Net-(D91-A)": "HV",
+      "Net-(D91-K)": "HV",
+      "Net-(D92-A)": "HV",
+      "Net-(D92-K)": "HV",
+      "Net-(D93-A)": "HV",
+      "Net-(D93-K)": "HV",
+      "Net-(D94-A)": "HV",
+      "Net-(D94-K)": "HV",
+      "Net-(D95-A)": "HV",
+      "Net-(D95-K)": "HV",
+      "Net-(D96-A)": "HV",
+      "Net-(D96-K)": "HV",
+      "Net-(D97-A)": "HV",
+      "Net-(D97-K)": "HV",
+      "Net-(D98-A)": "HV",
+      "Net-(D98-K)": "HV",
+      "Net-(D99-A)": "HV",
+      "Net-(D99-K)": "HV"
+    },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "AI0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AI7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AO7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "AS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "HT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KI7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KO7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "KS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C6-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C6-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C7-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C7-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C8-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad6)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad7)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad8)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad6)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad7)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J7-Pad8)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q10-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q10-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q11-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q11-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q12-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q13-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q13-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q14-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q14-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q15-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q15-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q16-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q16-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q17-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q18-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q19-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q20-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q21-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q22-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q23-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q24-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q9-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R10-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R11-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R12-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R13-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R15-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R16-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R9-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "VCC"
+        "netclass": "HV",
+        "pattern": "*OUT_*"
       },
       {
         "netclass": "HV",
-        "pattern": "*AO*"
+        "pattern": "*HT*"
+      },
+      {
+        "netclass": "LV",
+        "pattern": "/K\\d+"
+      },
+      {
+        "netclass": "LV",
+        "pattern": "/AI*"
       }
     ]
   },
