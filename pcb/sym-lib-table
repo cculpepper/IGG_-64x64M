@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "IGG1_OctoDriver-rescue")(type "Legacy")(uri "${KIPRJMOD}/IGG1_OctoDriver-rescue.lib")(options "")(descr ""))
-  (lib (name "diodearray")(type "Legacy")(uri "${KIPRJMOD}/diodearray.lib")(options "")(descr ""))
-  (lib (name "IGG1")(type "KiCad")(uri "/home/chris/Code/Pierre-IGGDriver/kathode/kathodeDriver/IGG1.kicad_sym")(options "")(descr ""))
-)
