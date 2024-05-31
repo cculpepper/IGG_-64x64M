@@ -2644,6 +2644,224 @@
 				)
 			)
 		)
+		(symbol "Device:Battery"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3869,11 +4087,11 @@
 				)
 			)
 		)
-		(symbol "IGG1:IGG1-64"
+		(symbol "IGG1:IGG1-64-All"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "IGG"
 				(at 1.524 11.176 0)
 				(effects
 					(font
@@ -3916,10 +4134,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "IGG1-64_0_1"
+			(symbol "IGG1-64-All_0_1"
 				(rectangle
-					(start 0 -153.67)
-					(end 3.81 10.16)
+					(start 0 10.16)
+					(end 3.81 -153.67)
 					(stroke
 						(width 0)
 						(type default)
@@ -3929,7 +4147,7 @@
 					)
 				)
 			)
-			(symbol "IGG1-64_1_1"
+			(symbol "IGG1-64-All_1_1"
 				(pin input line
 					(at -2.54 7.62 0)
 					(length 2.54)
@@ -5075,6 +5293,1160 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IGG1-64-All_2_1"
+				(pin input line
+					(at -2.54 -81.28 0)
+					(length 2.54)
+					(name "A36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -83.82 0)
+					(length 2.54)
+					(name "A37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "101"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -86.36 0)
+					(length 2.54)
+					(name "A38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "102"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -88.9 0)
+					(length 2.54)
+					(name "A39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "103"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -91.44 0)
+					(length 2.54)
+					(name "A40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "104"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -93.98 0)
+					(length 2.54)
+					(name "A41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "105"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -96.52 0)
+					(length 2.54)
+					(name "A42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "106"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -99.06 0)
+					(length 2.54)
+					(name "A43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -101.6 0)
+					(length 2.54)
+					(name "A44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "108"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -104.14 0)
+					(length 2.54)
+					(name "A45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "109"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -106.68 0)
+					(length 2.54)
+					(name "A46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "110"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -109.22 0)
+					(length 2.54)
+					(name "A47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "111"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -111.76 0)
+					(length 2.54)
+					(name "A48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "112"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -114.3 0)
+					(length 2.54)
+					(name "A49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -116.84 0)
+					(length 2.54)
+					(name "A50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "114"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -119.38 0)
+					(length 2.54)
+					(name "A51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -121.92 0)
+					(length 2.54)
+					(name "A52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -124.46 0)
+					(length 2.54)
+					(name "A53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "117"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -127 0)
+					(length 2.54)
+					(name "A54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "118"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -129.54 0)
+					(length 2.54)
+					(name "A55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "119"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -132.08 0)
+					(length 2.54)
+					(name "A56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "120"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -134.62 0)
+					(length 2.54)
+					(name "A57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "121"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -137.16 0)
+					(length 2.54)
+					(name "A58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "122"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -139.7 0)
+					(length 2.54)
+					(name "A59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "123"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -142.24 0)
+					(length 2.54)
+					(name "A60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "124"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -144.78 0)
+					(length 2.54)
+					(name "A61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "125"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -147.32 0)
+					(length 2.54)
+					(name "A62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "126"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -149.86 0)
+					(length 2.54)
+					(name "A63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "127"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -152.4 0)
+					(length 2.54)
+					(name "A64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "128"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -20.32 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -25.4 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -27.94 0)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -30.48 0)
+					(length 2.54)
+					(name "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -33.02 0)
+					(length 2.54)
+					(name "A17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -35.56 0)
+					(length 2.54)
+					(name "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -38.1 0)
+					(length 2.54)
+					(name "A19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -40.64 0)
+					(length 2.54)
+					(name "A20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -43.18 0)
+					(length 2.54)
+					(name "A21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -45.72 0)
+					(length 2.54)
+					(name "A22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -48.26 0)
+					(length 2.54)
+					(name "A23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -50.8 0)
+					(length 2.54)
+					(name "A24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -53.34 0)
+					(length 2.54)
+					(name "A25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -55.88 0)
+					(length 2.54)
+					(name "A26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "90"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -58.42 0)
+					(length 2.54)
+					(name "A27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "91"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -60.96 0)
+					(length 2.54)
+					(name "A28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "92"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -63.5 0)
+					(length 2.54)
+					(name "A29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "93"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -66.04 0)
+					(length 2.54)
+					(name "A30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "94"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -68.58 0)
+					(length 2.54)
+					(name "A31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "95"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -71.12 0)
+					(length 2.54)
+					(name "A32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "96"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -73.66 0)
+					(length 2.54)
+					(name "A33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -76.2 0)
+					(length 2.54)
+					(name "A34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "98"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -78.74 0)
+					(length 2.54)
+					(name "A35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "99"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -23320,6 +24692,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 224.79 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a60461-9f68-4871-b86b-b87fb94faa01")
+		(property "Reference" "BT2"
+			(at 228.6 62.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 228.6 65.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
+			(at 224.79 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "324e83a9-0bac-4632-906c-562ab55a1d3b")
+		)
+		(pin "2"
+			(uuid "e62e17e4-75b1-45d5-84d3-2e1b9483eaaa")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 88.9 243.84 0)
 		(unit 1)
@@ -24831,6 +26273,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 240.03 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd81bd9-99e7-45f1-ae8d-635d67167f8e")
+		(property "Reference" "BT3"
+			(at 243.84 62.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 243.84 65.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
+			(at 240.03 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 240.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb5b31f-7900-4c49-abb0-34c3dfc6a0b9")
+		)
+		(pin "2"
+			(uuid "bcafa5fb-da53-4550-b2ce-fc0e4bf9d830")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 327.66 241.3 0)
 		(unit 1)
@@ -25657,6 +27169,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 210.82 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ed2abd2-70e2-4e5f-b51a-7ac46bf34fd2")
+		(property "Reference" "BT1"
+			(at 214.63 62.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 214.63 65.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
+			(at 210.82 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6218a470-50c8-484c-8319-ab714720d90d")
+		)
+		(pin "2"
+			(uuid "1e0e11ec-1112-4045-887f-b15192f9f68d")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 165.1 257.81 0)
 		(unit 1)
@@ -26463,9 +28045,9 @@
 		)
 	)
 	(symbol
-		(lib_id "IGG1:IGG1-64")
+		(lib_id "IGG1:IGG1-64-All")
 		(at 326.39 21.59 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26490,7 +28072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IGG1:IGG1-Anode"
+		(property "Footprint" "IGG1:IGG1-All"
 			(at 326.39 21.59 0)
 			(effects
 				(font
@@ -26709,11 +28291,203 @@
 		(pin "48"
 			(uuid "722fcaaf-ee81-46ed-9c4e-86bacac532f1")
 		)
+		(pin "116"
+			(uuid "84b5976b-21eb-45b3-8d6b-6df5a08b925f")
+		)
+		(pin "117"
+			(uuid "4bfc3432-42eb-4b69-a898-ae7ad80a2b01")
+		)
+		(pin "80"
+			(uuid "0d9e7260-571b-4207-837f-8c7e1b52ae7c")
+		)
+		(pin "69"
+			(uuid "3b3796c2-f62a-434f-854e-e07b63848536")
+		)
+		(pin "120"
+			(uuid "9a760cd9-7eb5-44a2-8153-abb4158acf9b")
+		)
+		(pin "87"
+			(uuid "0c1d62b0-9ad8-451f-941d-646a49bfd589")
+		)
+		(pin "92"
+			(uuid "81264b73-9848-4f41-aefe-d9d6bca092fb")
+		)
+		(pin "95"
+			(uuid "d1a63745-63fd-43d4-9818-b7b0beb90e21")
+		)
+		(pin "90"
+			(uuid "49c37fc7-5c40-4f15-9935-6b253de8879b")
+		)
+		(pin "128"
+			(uuid "654f23e6-9d25-4305-bfc9-7cb201fb0776")
+		)
+		(pin "99"
+			(uuid "31eff67f-e8cc-4339-97b9-75670a7a4659")
+		)
+		(pin "98"
+			(uuid "93e96fbe-6328-46c2-a519-b34b27e96d56")
+		)
+		(pin "85"
+			(uuid "bf645591-c8b3-45a4-844d-5d5086e9b828")
+		)
+		(pin "102"
+			(uuid "b88632bb-825e-4088-93e9-8a80d648beab")
+		)
+		(pin "112"
+			(uuid "2ac50925-e356-4412-bf9a-d621f6194182")
+		)
+		(pin "100"
+			(uuid "20606ebf-ba22-48a4-b34f-0586bd40cf23")
+		)
+		(pin "84"
+			(uuid "7081d957-aeed-42e7-9056-5492e665a369")
+		)
+		(pin "114"
+			(uuid "0e69fef6-aebf-434a-a6f3-9d78e9cfeb6e")
+		)
+		(pin "91"
+			(uuid "d8ebaa10-f50e-4c07-8b38-df489fb159ad")
+		)
+		(pin "125"
+			(uuid "297d57e2-43b5-41b8-b114-14bd8bf20f84")
+		)
+		(pin "88"
+			(uuid "67ee9fc1-ce04-4c79-af63-d7010117246c")
+		)
+		(pin "72"
+			(uuid "537d0444-b865-4c87-9cbb-32a4fee6dc92")
+		)
+		(pin "79"
+			(uuid "60651c81-d870-4c2e-964c-c17b69414f6e")
+		)
+		(pin "68"
+			(uuid "43457620-1f03-4942-bcde-e7196addc812")
+		)
+		(pin "71"
+			(uuid "2018f4f2-373b-403b-9f1d-775354968df4")
+		)
+		(pin "107"
+			(uuid "20b7d945-ba79-46a8-b66f-b349c6a4ef01")
+		)
+		(pin "89"
+			(uuid "9c4d38bb-b110-44de-88d9-87f37872a5df")
+		)
+		(pin "101"
+			(uuid "c644b24a-75ac-449d-a7f6-0861cf283e60")
+		)
+		(pin "86"
+			(uuid "36595c64-e8af-4ae4-9499-e5f9ae0eb483")
+		)
+		(pin "106"
+			(uuid "8a0ca22e-1103-4eb0-8812-230f76f3c1a5")
+		)
+		(pin "108"
+			(uuid "339b9bf1-8d15-47e2-b76d-3006faa65626")
+		)
+		(pin "119"
+			(uuid "e8c71c0f-fa55-4442-b01d-90f0e59a7064")
+		)
+		(pin "66"
+			(uuid "b5495260-8777-47b8-8664-e5d2486e8d50")
+		)
+		(pin "103"
+			(uuid "9475ef17-d281-4437-b5d2-23450cc6bb27")
+		)
+		(pin "82"
+			(uuid "5a3f7d90-e4f4-4e41-9ff2-d9542609fcb5")
+		)
+		(pin "110"
+			(uuid "6fb2e39e-12c0-49bd-8e6a-9c0f5b048804")
+		)
+		(pin "81"
+			(uuid "1ac4ba0b-52ab-4a20-8daa-498baebc9ac9")
+		)
+		(pin "124"
+			(uuid "8aef7362-a6bb-4a11-8d0e-547dd11c8fd3")
+		)
+		(pin "105"
+			(uuid "a3dec3b9-227c-4703-a730-466c6a2d7e2f")
+		)
+		(pin "96"
+			(uuid "ac2a270d-da0d-448b-8eda-15920f6ef7c7")
+		)
+		(pin "97"
+			(uuid "c9d54972-f36f-4339-8654-6b875f9aca07")
+		)
+		(pin "65"
+			(uuid "6f43b5be-1625-468e-a119-b7b90d2ba7a3")
+		)
+		(pin "126"
+			(uuid "f9a6e6fd-ce93-432b-814e-01251e98a2de")
+		)
+		(pin "121"
+			(uuid "ce6e7837-0f01-4d8a-89fd-413964b9d436")
+		)
+		(pin "77"
+			(uuid "fb6be966-b75c-4da9-a57f-e335582fd47c")
+		)
+		(pin "94"
+			(uuid "c1701728-ea9c-4361-b532-1591d3d917d2")
+		)
+		(pin "73"
+			(uuid "5c58843b-cdef-43d3-9da0-78e814004bbf")
+		)
+		(pin "113"
+			(uuid "eb98c4d7-cd5a-42ef-8dbd-82c13bd8dbd1")
+		)
+		(pin "76"
+			(uuid "e982c5dc-50c8-4009-bf52-f9b580ef2615")
+		)
+		(pin "111"
+			(uuid "f31d49f2-71d4-42a6-bfe5-ce206bd400e3")
+		)
+		(pin "93"
+			(uuid "d4623e42-be26-411a-817b-a73752e96691")
+		)
+		(pin "127"
+			(uuid "12c21caa-4f4c-4bf5-b053-999d31d15411")
+		)
+		(pin "74"
+			(uuid "522eb828-73a9-4a8a-a0bf-68dc7e2ca3b3")
+		)
+		(pin "83"
+			(uuid "9fd29f84-55a1-43a9-bbd2-f7ede232a7aa")
+		)
+		(pin "104"
+			(uuid "2885398b-0e83-4a64-b44b-edde3144ddef")
+		)
+		(pin "122"
+			(uuid "1407d75f-3291-45ef-b26d-9ee25f67c534")
+		)
+		(pin "109"
+			(uuid "632a0c99-27d9-48e1-89ee-c99bdfb7ffad")
+		)
+		(pin "118"
+			(uuid "ca155423-2d57-4077-a8c7-80b2db2877e3")
+		)
+		(pin "78"
+			(uuid "b70b591f-c7d9-49b6-989e-43b421b25223")
+		)
+		(pin "115"
+			(uuid "dcac11bf-f7fa-4f78-afe8-60433f01535f")
+		)
+		(pin "67"
+			(uuid "acee878e-3afa-472c-8012-a828b15d9433")
+		)
+		(pin "75"
+			(uuid "0d1aa841-ac4a-4805-998c-60d3d681759b")
+		)
+		(pin "123"
+			(uuid "7f3706b2-0f33-4f2c-9ec7-26ec67032d1a")
+		)
+		(pin "70"
+			(uuid "f2d13b17-c305-4fcd-8002-ce26b2df3c5c")
+		)
 		(instances
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "U13")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
