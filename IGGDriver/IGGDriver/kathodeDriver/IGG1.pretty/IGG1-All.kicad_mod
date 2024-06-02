@@ -167,6 +167,17 @@
 		(layer "Dwgs.User")
 		(uuid "9a9cc307-ffa9-425f-8bea-5eeae897c28f")
 	)
+	(fp_circle
+		(center 79.75 82.5)
+		(end 88.25 82.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2b978075-624f-44aa-b4c6-605a40a26f21")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 133.5 2.5 0)
 		(unlocked yes)
@@ -1502,7 +1513,36 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "B.Cu")
+		(layer "Dwgs.User")
+		(uuid "41e16fb4-98b6-4500-8e05-905e08f41b59")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 79.75 91) (xy 85.4 89.1) (xy 88.25 82.5) (xy 84.3 75.3) (xy 77.5 74.1) (xy 73.1 77) (xy 71.4 80.9)
+				(xy 71.8 85.9) (xy 75.5 90.1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Margin")
 		(uuid "fb61b45d-dab5-4c70-98d8-ea61d4395b43")
 		(name "Back pads")
 		(hatch edge 0.5)

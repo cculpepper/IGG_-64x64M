@@ -178,7 +178,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -468,7 +470,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.7,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -478,7 +480,7 @@
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 6)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 8
@@ -495,7 +497,7 @@
         "name": "LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 17, 255)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -570,6 +572,8 @@
       "/AO7": "HV",
       "/AO8": "HV",
       "/AO9": "HV",
+      "/HV_GEN/FB": "HV",
+      "HT": "HV",
       "Net-(D10-A)": "HV",
       "Net-(D10-K)": "HV",
       "Net-(D100-A)": "HV",
@@ -652,6 +656,7 @@
       "Net-(D135-K)": "HV",
       "Net-(D136-A)": "HV",
       "Net-(D136-K)": "HV",
+      "Net-(D138-A)": "HV",
       "Net-(D14-A)": "HV",
       "Net-(D14-K)": "HV",
       "Net-(D15-A)": "HV",
@@ -838,7 +843,7 @@
       },
       {
         "netclass": "LV",
-        "pattern": "/K\\d+"
+        "pattern": "/Kathode/K\\d+"
       },
       {
         "netclass": "LV",
@@ -953,6 +958,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -967,7 +978,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1298,6 +1315,14 @@
     [
       "2fcadc02-6b88-411f-b68e-dd3f4c7cfe83",
       "Kathode"
+    ],
+    [
+      "ed6672d7-92eb-40ce-b4cc-e5b4f765c723",
+      "BatteryManagement"
+    ],
+    [
+      "ad819f5f-9558-4b19-bdf0-0c64035fd7cc",
+      "HV_GEN"
     ]
   ],
   "text_variables": {}
