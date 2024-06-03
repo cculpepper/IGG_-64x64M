@@ -964,6 +964,12 @@
           "label": "Sim.Type",
           "name": "Sim.Type",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1323,6 +1329,10 @@
     [
       "ad819f5f-9558-4b19-bdf0-0c64035fd7cc",
       "HV_GEN"
+    ],
+    [
+      "5c49131f-71f7-4cc4-956c-13368bd50328",
+      "5VBuck"
     ]
   ],
   "text_variables": {}

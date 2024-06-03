@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "IGG1")(type "KiCad")(uri "${KIPRJMOD}/kathodeDriver/IGG1.kicad_sym")(options "")(descr ""))
   (lib (name "IP2326")(type "Legacy")(uri "${KIPRJMOD}/IP2326.lib")(options "")(descr ""))
+  (lib (name "USBSolderMux")(type "KiCad")(uri "${KIPRJMOD}/USBSolderMux.kicad_sym")(options "")(descr ""))
 )
