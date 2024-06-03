@@ -234,7 +234,7 @@
 		(at -2.75 161.25 180)
 		(size 3 1.5)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "B.SilkS" "F.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
