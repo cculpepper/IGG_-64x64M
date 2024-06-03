@@ -1340,6 +1340,16 @@
 		)
 		(uuid "fcd5a489-db36-4de3-9f4a-9355909d5f11")
 	)
+	(text "Float to enable"
+		(exclude_from_sim no)
+		(at 87.63 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ed28a12-8c85-4d77-95f2-cb11bef8ba15")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 182.88 85.09 0)

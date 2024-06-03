@@ -573,6 +573,7 @@
       "/AO8": "HV",
       "/AO9": "HV",
       "/HV_GEN/FB": "HV",
+      "/HV_GEN/VOUT": "HV",
       "HT": "HV",
       "Net-(D10-A)": "HV",
       "Net-(D10-K)": "HV",
