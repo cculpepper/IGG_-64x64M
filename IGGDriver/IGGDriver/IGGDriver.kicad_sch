@@ -28305,7 +28305,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "    C1648"
+		(property "LCSC" "C1648"
 			(at 330.2 295.91 0)
 			(effects
 				(font
@@ -31385,7 +31385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "    C1648"
+		(property "LCSC" "C1648"
 			(at 314.96 295.91 0)
 			(effects
 				(font

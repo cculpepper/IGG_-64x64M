@@ -7650,16 +7650,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 347.98) (xy 184.15 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc796eb-817f-4076-be8e-3d1b96fbcf19")
-	)
-	(wire
-		(pts
 			(xy 342.9 148.59) (xy 353.06 148.59)
 		)
 		(stroke
@@ -11297,16 +11287,6 @@
 			(type default)
 		)
 		(uuid "d9b13606-e6c3-476a-9ba7-d3ad7ebb8037")
-	)
-	(wire
-		(pts
-			(xy 165.1 347.98) (xy 168.91 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d78050-7704-41e9-bea6-5cfad4889d28")
 	)
 	(wire
 		(pts
@@ -23538,77 +23518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IGG1_OctoDriver-rescue:GND")
-		(at 186.69 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38b42d3a-eb0c-4fd1-9dac-78b9edb0030e")
-		(property "Reference" "#PWR01034"
-			(at 186.69 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9df9ec3b-6d89-46ef-8627-c9e0bd08ff27")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be/2fcadc02-6b88-411f-b68e-dd3f4c7cfe83"
-					(reference "#PWR01034")
-					(unit 1)
-				)
-			)
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "#PWR01034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 157.48 480.06 0)
 		(unit 1)
@@ -25162,78 +25071,6 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR01105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 165.1 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ccefd0f-7051-4158-b3de-86b933c34f40")
-		(property "Reference" "#PWR01023"
-			(at 165.1 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 165.1 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 165.1 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d702d0e-70f6-4c8a-b0b0-47a268682348")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be/2fcadc02-6b88-411f-b68e-dd3f4c7cfe83"
-					(reference "#PWR01023")
-					(unit 1)
-				)
-			)
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "#PWR01023")
 					(unit 1)
 				)
 			)
@@ -34309,89 +34146,6 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "Q1016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 180.34 347.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "950b3d99-f8be-4ba1-b4c8-1f193a45ffb1")
-		(property "Reference" "D1008"
-			(at 181.9275 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 181.9275 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 180.34 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 180.34 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2286"
-			(at 180.34 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efb48dc2-7ab4-4c8a-ba77-46afae100670")
-		)
-		(pin "1"
-			(uuid "512c6a82-1b7c-481a-9417-1bddde90e6a5")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be/2fcadc02-6b88-411f-b68e-dd3f4c7cfe83"
-					(reference "D1008")
-					(unit 1)
-				)
-			)
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "D1008")
 					(unit 1)
 				)
 			)
@@ -45289,89 +45043,6 @@
 			(project "kathodeDriver"
 				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
 					(reference "#PWR01148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 347.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e779e368-d8d7-49f5-99c5-d7cd3cdc967b")
-		(property "Reference" "R1002"
-			(at 172.72 341.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 172.72 344.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 172.72 349.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d5470aa-c906-4e4c-9bcf-1e913737d1f3")
-		)
-		(pin "1"
-			(uuid "eac3ad9e-5b31-410b-b44c-c49e3e0faf96")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be/2fcadc02-6b88-411f-b68e-dd3f4c7cfe83"
-					(reference "R1002")
-					(unit 1)
-				)
-			)
-			(project "kathodeDriver"
-				(path "/f2c72e81-6fe3-4213-8891-e652083dbd6a"
-					(reference "R1002")
 					(unit 1)
 				)
 			)
