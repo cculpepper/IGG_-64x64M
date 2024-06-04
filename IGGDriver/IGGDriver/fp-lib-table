@@ -3,4 +3,5 @@
   (lib (name "IGG1")(type "KiCad")(uri "${KIPRJMOD}/kathodeDriver/IGG1.pretty")(options "")(descr ""))
   (lib (name "USBSolderMux")(type "KiCad")(uri "${KIPRJMOD}/USBSolderMux.pretty")(options "")(descr ""))
   (lib (name "KAN28")(type "KiCad")(uri "${KIPRJMOD}/KAN28.pretty")(options "")(descr ""))
+  (lib (name "SinhooSMDNut")(type "KiCad")(uri "${KIPRJMOD}/SinhooSMDNut.pretty")(options "")(descr ""))
 )
