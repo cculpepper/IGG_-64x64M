@@ -22682,7 +22682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
 			(at 400.685 111.76 0)
 			(effects
 				(font
@@ -22709,7 +22709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2915637"
 			(at 400.685 111.76 0)
 			(effects
 				(font
@@ -23751,6 +23751,82 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 424.18 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "340b8f08-5e7b-4e6b-8239-1bd1df8b8609")
+		(property "Reference" "H4"
+			(at 426.72 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 426.72 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
+			(at 424.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 424.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915637"
+			(at 424.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39edfa2b-a636-4b72-b71a-5efac2529832")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -25318,82 +25394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 408.94 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4805d969-c273-4eb4-95aa-00e9dc1d6566")
-		(property "Reference" "H2"
-			(at 411.48 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H"
-			(at 411.48 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
-			(at 408.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 408.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 408.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 408.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e31148eb-edb0-4f05-80b7-6d301de6249a")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 165.1 199.39 0)
@@ -25730,6 +25730,82 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 430.53 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f0aad3-84f8-4992-8628-5d546e478804")
+		(property "Reference" "H5"
+			(at 433.07 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 433.07 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
+			(at 430.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 430.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915637"
+			(at 430.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace6992d-5693-45b5-8960-3d741dee32ab")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -28033,6 +28109,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 408.94 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cb75442-2c1a-49e8-aada-a9853b1b19ce")
+		(property "Reference" "H2"
+			(at 411.48 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 411.48 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
+			(at 408.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915637"
+			(at 408.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef03f48-6c22-483f-bd7a-82465e23ac66")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 392.43 219.71 0)
 		(unit 1)
@@ -28712,82 +28864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 424.18 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a6f55e7-77f3-4afc-a201-d0717c2300c3")
-		(property "Reference" "H4"
-			(at 426.72 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H"
-			(at 426.72 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
-			(at 424.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 424.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 424.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 424.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd52fe48-761c-4e83-8e68-90b1238defba")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 303.53 316.23 0)
 		(unit 1)
@@ -29124,82 +29200,6 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 438.15 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "824e22b9-1f63-4359-b94c-0fce1fcfdc0a")
-		(property "Reference" "H6"
-			(at 440.69 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H"
-			(at 440.69 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
-			(at 438.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 438.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 438.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 438.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0f3b856-175c-4263-ae12-2aa4d85a4054")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -31148,82 +31148,6 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 430.53 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99d7043f-7c8e-4fc4-990c-f19634a653a2")
-		(property "Reference" "H5"
-			(at 433.07 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H"
-			(at 433.07 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
-			(at 430.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 430.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 430.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 430.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca937c48-0f20-47f6-ac40-3a7a1d3f0327")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
-					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -33624,82 +33548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 416.56 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a40d77-1da3-46c2-a400-1db19b9dc504")
-		(property "Reference" "H3"
-			(at 419.1 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H"
-			(at 419.1 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360"
-			(at 416.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 416.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 416.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 416.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bac68b1-309a-4648-8eab-d4f2dcdf1193")
-		)
-		(instances
-			(project "IGGDriver"
-				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 242.57 25.4 270)
 		(unit 1)
@@ -34071,6 +33919,82 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 438.15 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be2e5a18-3082-4d00-82db-819e7f9a547a")
+		(property "Reference" "H6"
+			(at 440.69 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 440.69 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
+			(at 438.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 438.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 438.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915637"
+			(at 438.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18bcdb6d-7a88-428c-84aa-8aa6ef55f516")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -36377,6 +36301,82 @@
 			(project "IGGDriver"
 				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 416.56 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e13a967d-97a9-44ad-b993-47615c46bd13")
+		(property "Reference" "H3"
+			(at 419.1 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 419.1 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SinhooSMDNut:M3x0.5SMDNut"
+			(at 416.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 416.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915637"
+			(at 416.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05a4fc7-22fa-481c-a03e-8f84f8604663")
+		)
+		(instances
+			(project "IGGDriver"
+				(path "/42dcdc8e-b1dc-4d4c-b3c7-96447ce841be"
+					(reference "H3")
 					(unit 1)
 				)
 			)
