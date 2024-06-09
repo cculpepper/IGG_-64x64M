@@ -25497,7 +25497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7470	"
+		(property "LCSC" "C7470"
 			(at 199.39 411.48 0)
 			(effects
 				(font

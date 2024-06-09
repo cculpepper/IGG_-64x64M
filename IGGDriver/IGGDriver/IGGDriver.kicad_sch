@@ -17140,6 +17140,16 @@
 		)
 		(uuid "fff5ac39-db85-47b3-85e7-2f9f76e78a55")
 	)
+	(text "LSM6DSV16X is compatible\n"
+		(exclude_from_sim no)
+		(at 485.648 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25590665-af5f-4aa1-9985-c7c3994c0915")
+	)
 	(text "Short jumper, swap r301 to R302 to enable RP2040/RTC control\n"
 		(exclude_from_sim no)
 		(at 101.346 57.912 0)
