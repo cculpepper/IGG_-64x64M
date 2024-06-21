@@ -33,6 +33,7 @@
       2,
       3,
       4,
+      5,
       6,
       7,
       8,
@@ -44,6 +45,8 @@
       14,
       15,
       16,
+      17,
+      18,
       19,
       20,
       21,
@@ -79,8 +82,20 @@
   "project": {
     "files": [
       {
+        "name": "IGGDriver.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 0,
+          "size_x": 1280,
+          "size_y": 498
+        }
+      },
+      {
         "name": "IGGDriver.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -88,18 +103,6 @@
           "pos_y": 0,
           "size_x": 1280,
           "size_y": 720
-        }
-      },
-      {
-        "name": "IGGDriver.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 26,
-          "pos_y": 23,
-          "size_x": 1096,
-          "size_y": 611
         }
       }
     ]
