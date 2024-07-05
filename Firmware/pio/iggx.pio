@@ -1,0 +1,143 @@
+;
+; Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+;
+; SPDX-License-Identifier: BSD-3-Clause
+;
+
+.program iggx
+
+.side_set 1
+
+reset:
+    set pins, 0x12 side 1
+    set pins, 0x07 side 1
+
+set y 9 side 1
+l:
+set x 13 side 1
+set_loop:
+set pins, 0x0D side 1 ; Pulse the STCP, enable output
+set pins, 0x07 side 1 ; Disable output, get STCP low, clock the kathode
+jmp x-- set_loop side 1
+jmp y-- l side 1
+;    set pins, 0x00 side 1
+;    set pins, 0x1f side 1
+;    set pins, 0x00 side 1
+;    set pins, 0x16 side 1
+;    set pins, 0x1f side 1
+    ;set pins, 0x13 side 1
+loop:
+
+
+;set pins, 0x0D side 1 ; slower sets
+;nop [10] side 1
+;set pins, 0x1D side 1 ; slower sets
+;nop [10] side 1
+;set pins, 0x19 side 1 ; Reset the shift registers, disable output
+;nop [10] side 1
+;set pins, 0x09 side 1 ; slower sets
+;nop [10] side 1
+;set pins, 0x0D side 1 ; enable output unreset
+;nop [10] side 1
+
+start_anode_loop_a:
+    set x, 7 side 1
+
+anode_loop_a:
+    out pins, 8 side 0
+    jmp x-- anode_loop_a side 1
+
+set pins, 0x1D side 1 ; 
+;nop [15] side 1
+set pins, 0x1f side 1 ; 
+;nop [15] side 1
+set pins, 0x17 side 1 ; Disable output, get STCP low, clock the kathode
+;nop [15] side 1
+;nop [15] side 1
+; next:
+;nop [15] side 1
+;nop [15] side 1
+set pins, 0x07 side 1 ; Disable output, get STCP low, clock the kathode
+;nop [15] side 1
+;nop [15] side 1
+set pins, 0x0f side 1 ; Disable output, get STCP low, clock the kathode
+;nop [15] side 1
+;nop [15] side 1
+;nop [15] side 1
+;nop [15] side 1
+;;nop [15] side 1
+;nop [15] side 1
+;nop [15] side 1
+jmp loop side 1
+
+set pins, 0x0f side 1 ; Disable output, get STCP low, clock the kathode
+
+;start_anode_loop_b:
+    ;set x, 7 side 1
+;
+;anode_loop_b:
+;    nop side 0
+;    out pins, 8 side 0
+;    nop side 0
+;    nop side 1
+;    jmp x-- anode_loop_b side 1
+;
+;set pins, 0x07 side 0 ; Disable output, get STCP low, clock the kathode
+;nop side 0
+;nop side 0
+;nop side 0
+;nop side 0
+;set pins, 0x0D side 0 ; Pulse the STCP, enable output
+;nop side 0
+;nop side 0
+;nop side 0
+;;nop side 0
+;nop side 0
+;
+;
+;jmp loop side 1
+
+% c-sdk {
+#include "hardware/clocks.h"
+static inline void iggx_program_init(PIO pio, uint sm, uint offset) {
+    pio_sm_config c = iggx_program_get_default_config(offset);
+
+    // Map the state machine's OUT pin group to one pin, namely the `pin`
+    // parameter to this function.
+    sm_config_set_out_pins(&c, 0, 8);
+    sm_config_set_set_pins(&c, 14, 5);
+    sm_config_set_sideset(&c, 1, false, false); // TODO: No idea what this needs
+    sm_config_set_sideset_pins(&c, 10);
+
+    pio_gpio_init(pio, 10);
+
+    // Set this pin's GPIO function (connect PIO to the pad)
+    for (int i=0;i<9;i++){
+        pio_gpio_init(pio, i);
+    }
+    for (int i=14;i<19;i++){
+        pio_gpio_init(pio, i);
+    }
+    sm_config_set_out_shift(&c, true, true, 32); 
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
+#define FPS 30
+#define NUM_INSTR_IN_ANODE_LOOP 50
+// Need 18 instructions to occur within 1 kathode tick
+// Need FPS * 64 kathode ticks per second
+// Need FPS * 64 * NUM_INSTR_ANODE_LOOP ticks per secod
+#define INSTR_PER_SECOND (FPS * 64 * NUM_INSTR_IN_ANODE_LOOP)
+    float div = (float) (clock_get_hz(clk_sys) / INSTR_PER_SECOND);
+//div = 99999999;
+    sm_config_set_clkdiv(&c, div*.5);
+
+    // Set the pin direction to output at the PIO
+    pio_sm_set_consecutive_pindirs(pio, sm, 0, 8, true);
+    pio_sm_set_consecutive_pindirs(pio, sm, 10, 1, true);
+    pio_sm_set_consecutive_pindirs(pio, sm, 14, 5, true);
+
+    // Load our configuration, and jump to the start of the program
+    pio_sm_init(pio, sm, offset, &c);
+    // Set the state machine running
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}

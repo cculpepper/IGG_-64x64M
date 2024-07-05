@@ -11497,12 +11497,6 @@
 		(uuid "00a5f6ba-2d21-4d6b-8d1c-10227f73b95b")
 	)
 	(junction
-		(at 152.4 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06324c41-5b2c-47fe-b638-79df1f2dfe71")
-	)
-	(junction
 		(at 149.86 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11729,12 +11723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "990ffc49-70ef-418c-a325-07688cc75490")
-	)
-	(junction
-		(at 149.86 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ef165fa-8f2e-4575-9a75-a6cf66c576be")
 	)
 	(junction
 		(at 377.19 226.06)
@@ -12622,7 +12610,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 154.94 128.27)
+			(xy 146.05 128.27) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -12859,16 +12847,6 @@
 			(type default)
 		)
 		(uuid "313697ac-e933-495d-a410-7747eb6a9a14")
-	)
-	(wire
-		(pts
-			(xy 146.05 171.45) (xy 149.86 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32837273-da71-4882-ac42-7a044a0cf724")
 	)
 	(wire
 		(pts
@@ -13659,16 +13637,6 @@
 			(type default)
 		)
 		(uuid "58bb319c-9686-4b34-bbf7-2466ab00b1cb")
-	)
-	(wire
-		(pts
-			(xy 152.4 115.57) (xy 152.4 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9fe895-6579-46e9-92fe-fba8d7347ddb")
 	)
 	(wire
 		(pts
@@ -15192,16 +15160,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 152.4 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a60943-7608-4b01-acf5-755c363307f8")
-	)
-	(wire
-		(pts
 			(xy 453.39 314.96) (xy 441.96 314.96)
 		)
 		(stroke
@@ -15339,16 +15297,6 @@
 			(type default)
 		)
 		(uuid "ab16e809-61ae-4ab6-a727-8c5eed7315d3")
-	)
-	(wire
-		(pts
-			(xy 149.86 161.29) (xy 149.86 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9f491e-77a8-409c-b74e-17edf0d9607d")
 	)
 	(wire
 		(pts
@@ -16912,7 +16860,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 171.45) (xy 154.94 171.45)
+			(xy 146.05 171.45) (xy 154.94 171.45)
 		)
 		(stroke
 			(width 0)
@@ -17139,6 +17087,16 @@
 			(type default)
 		)
 		(uuid "fff5ac39-db85-47b3-85e7-2f9f76e78a55")
+	)
+	(text "LSM6DSV16X is compatible\n"
+		(exclude_from_sim no)
+		(at 485.648 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25590665-af5f-4aa1-9985-c7c3994c0915")
 	)
 	(text "Short jumper, swap r301 to R302 to enable RP2040/RTC control\n"
 		(exclude_from_sim no)

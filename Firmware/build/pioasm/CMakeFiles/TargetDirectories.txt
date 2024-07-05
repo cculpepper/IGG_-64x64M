@@ -1,0 +1,3 @@
+/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir
