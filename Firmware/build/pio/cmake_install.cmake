@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Code/Pierre-IGGDriver/Firmware/pio
+# Install script for directory: /home/chris/Code/IGG_-64x64M/Firmware/pio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,14 +32,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Code/Pierre-IGGDriver/Firmware/build/pio/pico-sdk/cmake_install.cmake")
+  include("/home/chris/Code/IGG_-64x64M/Firmware/build/pio/pico-sdk/cmake_install.cmake")
 
 endif()
 

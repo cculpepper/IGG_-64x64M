@@ -14,6 +14,7 @@
 
 #define iggx_wrap_target 0
 #define iggx_wrap 17
+#define iggx_pio_version 0
 
 static const uint16_t iggx_program_instructions[] = {
             //     .wrap_target
@@ -43,6 +44,10 @@ static const struct pio_program iggx_program = {
     .instructions = iggx_program_instructions,
     .length = 18,
     .origin = -1,
+    .pio_version = 0,
+#if PICO_PIO_VERSION > 0
+    .used_gpio_ranges = 0x0
+#endif
 };
 
 static inline pio_sm_config iggx_program_get_default_config(uint offset) {

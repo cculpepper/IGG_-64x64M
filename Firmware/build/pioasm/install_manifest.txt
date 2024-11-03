@@ -1,0 +1,5 @@
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm-install/pioasm/pioasm
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

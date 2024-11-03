@@ -1,3 +1,7 @@
-/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/pioasm.dir
-/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/edit_cache.dir
-/home/chris/Code/Pierre-IGGDriver/Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/list_install_components.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/install.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/install/local.dir
+/home/chris/Code/IGG_-64x64M/Firmware/build/pioasm/CMakeFiles/install/strip.dir
